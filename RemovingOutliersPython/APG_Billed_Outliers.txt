@@ -1,0 +1,65 @@
+File: \\prd-app-a01\d$\CE\Repcalcs\FTPFiles\Receivables\APG_Billed_05-12-2020.csv
+
+Client: APG Billed 
+
+Computed IQR: 664.8164999999984
+CustomerNumber              0003296402
+LastInvoiceDate             2020-05-08
+Billed 0-30                    25125.4
+31-60                          94470.4
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 5401, dtype: object
+
+CustomerNumber                 N127873
+LastInvoiceDate             2020-04-27
+Billed 0-30                      -7848
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 17598, dtype: object
+
+CustomerNumber                 N136597
+LastInvoiceDate             2020-04-27
+Billed 0-30                    50206.6
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 18416, dtype: object
+
+CustomerNumber                 N338911
+LastInvoiceDate             2020-05-07
+Billed 0-30                   -22132.2
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 38294, dtype: object
+
+CustomerNumber                 N442024
+LastInvoiceDate             2020-05-03
+Billed 0-30                    55555.5
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 54903, dtype: object
+

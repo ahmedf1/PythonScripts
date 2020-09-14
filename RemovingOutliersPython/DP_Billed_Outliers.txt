@@ -1,0 +1,131 @@
+File: \\prd-app-a01\d$\CE\Repcalcs\FTPFiles\Receivables\AR_Detail_As_Of_Date_2020-07-29.20.03_20200729_200209.csv
+
+Client: Discount Power Billed 
+
+Computed IQR: 59.53349999999948
+CLIENT_NAME                 DiscountPower
+CUSTOMER_NAME      MiddlewoodsofNewington
+STATUS_DESC                        Closed
+TERRITORY_CODE                        CLP
+LDC_ACCOUNT_NUM     51454645011-502433002
+ACCOUNT                  24952786-55-7603
+UNSTATEMENTED                           0
+DAYS_UNDER_30                           0
+DAYS_30                          -4941.79
+DAYS_60                                 0
+DAYS_90                                 0
+DAYS_OVER_120                           0
+BILLED_GE30                      -4941.79
+BILLED_AR                        -4941.79
+BILLED_BUDGET                           0
+DEFERRED_AR                             0
+ACTUAL_AR                        -4941.79
+RepID                                  46
+ProcessThruDate       2020-07-30 03:59:59
+Name: 48628, dtype: object
+
+CLIENT_NAME                DiscountPower
+CUSTOMER_NAME         FarmingtonClubInc.
+STATUS_DESC                       Closed
+TERRITORY_CODE                       CLP
+LDC_ACCOUNT_NUM    51177742079-632171000
+ACCOUNT                 48939561-09-4618
+UNSTATEMENTED                          0
+DAYS_UNDER_30                          0
+DAYS_30                                0
+DAYS_60                                0
+DAYS_90                                0
+DAYS_OVER_120                    -1989.8
+BILLED_GE30                      -1989.8
+BILLED_AR                        -1989.8
+BILLED_BUDGET                          0
+DEFERRED_AR                            0
+ACTUAL_AR                        -1989.8
+RepID                                 46
+ProcessThruDate      2020-07-30 03:59:59
+Name: 82782, dtype: object
+
+CLIENT_NAME                DiscountPower
+CUSTOMER_NAME                  LymanJohn
+STATUS_DESC                       Closed
+TERRITORY_CODE                       CLP
+LDC_ACCOUNT_NUM    51254152010-358371001
+ACCOUNT                 54219380-43-2059
+UNSTATEMENTED                          0
+DAYS_UNDER_30                          0
+DAYS_30                                0
+DAYS_60                                0
+DAYS_90                                0
+DAYS_OVER_120                   -3644.16
+BILLED_GE30                     -3644.16
+BILLED_AR                       -3644.16
+BILLED_BUDGET                          0
+DEFERRED_AR                            0
+ACTUAL_AR                       -3644.16
+RepID                                 46
+ProcessThruDate      2020-07-30 03:59:59
+Name: 90332, dtype: object
+
+CLIENT_NAME              DiscountPower
+CUSTOMER_NAME            PERRYBARBARAE
+STATUS_DESC                     Closed
+TERRITORY_CODE                   NGRIE
+LDC_ACCOUNT_NUM             5021579005
+ACCOUNT               14678878-55-0939
+UNSTATEMENTED                        0
+DAYS_UNDER_30                        0
+DAYS_30                              0
+DAYS_60                        -116.43
+DAYS_90                              0
+DAYS_OVER_120                  -914.22
+BILLED_GE30                   -1030.65
+BILLED_AR                     -1030.65
+BILLED_BUDGET                        0
+DEFERRED_AR                          0
+ACTUAL_AR                     -1030.65
+RepID                               46
+ProcessThruDate    2020-07-30 03:59:59
+Name: 193264, dtype: object
+
+CLIENT_NAME              DiscountPower
+CUSTOMER_NAME          WPPropertiesLLC
+STATUS_DESC                     Active
+TERRITORY_CODE                      UI
+LDC_ACCOUNT_NUM          1950038231023
+ACCOUNT               01687462-46-0742
+UNSTATEMENTED                        0
+DAYS_UNDER_30                  10231.2
+DAYS_30                              0
+DAYS_60                              0
+DAYS_90                              0
+DAYS_OVER_120                        0
+BILLED_GE30                          0
+BILLED_AR                      10231.2
+BILLED_BUDGET                        0
+DEFERRED_AR                          0
+ACTUAL_AR                      10231.2
+RepID                               46
+ProcessThruDate    2020-07-30 03:59:59
+Name: 227875, dtype: object
+
+CLIENT_NAME                        NaN
+CUSTOMER_NAME        UnclaimedPayments
+STATUS_DESC                     Active
+TERRITORY_CODE                    NONE
+LDC_ACCOUNT_NUM                    NaN
+ACCOUNT               42372942-01-0040
+UNSTATEMENTED                 -20175.9
+DAYS_UNDER_30                        0
+DAYS_30                              0
+DAYS_60                              0
+DAYS_90                              0
+DAYS_OVER_120                        0
+BILLED_GE30                          0
+BILLED_AR                     -20175.9
+BILLED_BUDGET                        0
+DEFERRED_AR                          0
+ACTUAL_AR                     -20175.9
+RepID                               46
+ProcessThruDate    2020-07-30 03:59:59
+Name: 271891, dtype: object
+

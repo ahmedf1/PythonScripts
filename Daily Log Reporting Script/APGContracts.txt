@@ -1,0 +1,54 @@
+[Aug 05 06:31:17 A -04:00] INFO  RepCalcs(0) - ****************************************************************
+[Aug 05 06:31:17 A -04:00] INFO  RepCalcs(0) - Download Contracts for APG ( mailbox repclient12, repId 6 )
+[Aug 05 06:31:17 A -04:00] INFO  RepCalcs(0) - ****************************************************************
+[Aug 05 06:31:17 A -04:00] ERROR RepCalcs(0) - Missing Contract Data file for APG
+[Aug 05 06:31:17 A -04:00] WARN  RepCalcs(0) - Missing Remote Contract File
+[Aug 05 06:31:17 A -04:00] WARN  RepCalcs(0) - XXX Since this REP has an Active Certificate, we are going to reload the most recent Contract File locally...
+[Aug 05 06:31:17 A -04:00] INFO  RepCalcs(0) - Will load up the most recent Contract File, which is: APGContracts-051120-5273.csv
+[Aug 05 06:31:17 A -04:00] INFO  RepCalcs(0) - Processing APGContracts-051120-5273.csv
+[Aug 05 06:31:21 A -04:00] INFO  RepCalcs(0) - Moving APGContracts-2020.08.05.zip to NDrive...
+[Aug 05 06:31:21 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 05 06:31:21 A -04:00] INFO  RepCalcs(0) - Scrubbing...
+[Aug 05 06:31:21 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 05 06:31:21 A -04:00] INFO  RepCalcs(0) - Loading...
+[Aug 05 06:31:21 A -04:00] INFO  RepData(0) - Querying pre calculated variable contract margins for repId 6
+[Aug 05 07:16:19 A -04:00] WARN  InputFile(0) - Syntax Errors: 3
+[Aug 05 07:16:19 A -04:00] WARN  InputFile(0) - Missing Usage: 840
+[Aug 05 07:16:19 A -04:00] WARN  InputFile(0) - Missing Margins: 3
+[Aug 05 07:16:19 A -04:00] WARN  InputFile(0) - Capped Margins (Power): 78,507
+[Aug 05 07:16:19 A -04:00] WARN  InputFile(0) - Capped Margins (Gas): 28,797
+[Aug 05 07:16:19 A -04:00] WARN  InputFile(0) - Expired Contracts: 0
+[Aug 05 07:16:19 A -04:00] INFO  InputFile(0) - There were 112,281 lines of data ( incl header ) and 3 lines with syntax errors and 0 warnings
+[Aug 05 07:16:20 A -04:00] INFO  RepCalcs(0) - Found 112,277 Valid Contracts and 3 Errors and 0 Warnings for APG and repclient12
+[Aug 05 07:16:20 A -04:00] ERROR RepCalcs(0) - XXX There were errors in the file, please see RepCalcs Contract log for details XXX
+[Aug 05 07:16:20 A -04:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Aug 05 07:16:21 A -04:00] INFO  RepData(0) - ReplacePortfolioOp moved 224554 contracts out of the way for RepId: 6
+[Aug 05 07:16:21 A -04:00] INFO  RepData(0) - Inserting Contracts...
+[Aug 05 07:26:08 A -04:00] INFO  RepData(0) - ** Inserted 112277 new Contracts **
+[Aug 05 07:26:08 A -04:00] INFO  RepCalcs(0) - Residential...
+[Aug 05 07:26:08 A -04:00] INFO  RepCalcs(0) - Inserting 0 months of Fixed Contract Volumes
+[Aug 05 07:26:08 A -04:00] INFO  RepCalcs(0) - Inserting 684 months of Var Contract Volumes
+[Aug 05 07:26:09 A -04:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Aug 05 07:26:09 A -04:00] INFO  RepCalcs(0) - INSERTING DETAILED RESIDENTIAL CONTRACT VOLUMES
+[Aug 05 07:26:09 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Contract Volumes
+[Aug 05 07:26:09 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Aug 05 07:26:09 A -04:00] INFO  RepCalcs(0) - Inserting 1292 rows of DETAILED  Variable Contract Volumes
+[Aug 05 07:26:12 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Aug 05 07:26:12 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Aug 05 07:26:12 A -04:00] INFO  RepCalcs(0) - Commercial...
+[Aug 05 07:26:12 A -04:00] INFO  RepCalcs(0) - Inserting 0 months of Fixed Contract Volumes
+[Aug 05 07:26:12 A -04:00] INFO  RepCalcs(0) - Inserting 684 months of Var Contract Volumes
+[Aug 05 07:26:13 A -04:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Aug 05 07:26:13 A -04:00] INFO  RepCalcs(0) - INSERTING DETAILED COMMERCIAL CONTRACT VOLUMES
+[Aug 05 07:26:13 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Contract Volumes
+[Aug 05 07:26:13 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Aug 05 07:26:13 A -04:00] INFO  RepCalcs(0) - Inserting 1577 rows of DETAILED  Variable Contract Volumes
+[Aug 05 07:26:16 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Aug 05 07:26:16 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Aug 05 07:26:16 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 05 07:26:17 A -04:00] INFO  RepData(0) - linkContractsProducts returns 112277
+[Aug 05 07:26:17 A -04:00] INFO  RepData(0) - Looking for Orphan Power contracts
+[Aug 05 07:26:17 A -04:00] INFO  RepData(0) - linkContractsProducts2 returns 0
+[Aug 05 07:26:17 A -04:00] INFO  RepData(0) - Looking for Orphan Gas contracts
+[Aug 05 07:26:17 A -04:00] INFO  RepData(0) - linkContractsProducts3 returns 0
+[Aug 05 07:26:17 A -04:00] INFO  RepCalcs(0) - Skipping cleanup

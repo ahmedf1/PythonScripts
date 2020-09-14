@@ -1,0 +1,1384 @@
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - 
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - 
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - arg1: 2018-11-19 03:59:59
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - arg2: Edf
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - 
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ** Starting RepCalcs **
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ** ImportContracts: True **
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ** RunPVCalc: True **
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ** RunAnalysis: True **
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: False **
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ** ImportReceivables: False **
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-19 03:59:59
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 19 05:30:25 A -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 19 05:30:25 A -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 19 05:30:25 A -05:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs-Contracts.log.2018-11-02.log
+[Nov 19 05:30:25 A -05:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs.log.2018-11-02.log
+[Nov 19 05:30:25 A -05:00] INFO  DirCleaner(0) - Deleted 2 files in .
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 19 05:30:25 A -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 19 05:30:25 A -05:00] INFO  RepData(0) - 
+[Nov 19 05:30:25 A -05:00] INFO  RepData(0) - Creating a NEW Job, with JobId 4733
+[Nov 19 05:30:25 A -05:00] INFO  RepData(0) - 
+[Nov 19 05:30:25 A -05:00] INFO  RepData(0) - Querying Power Prices...
+[Nov 19 05:30:25 A -05:00] INFO  RepData(0) - Clearing Ptd= 11/19/2018 12:00:00 AM
+[Nov 19 05:30:27 A -05:00] INFO  RepData(0) - Querying Gas Prices...
+[Nov 19 05:30:28 A -05:00] INFO  RepData(0) - Done Querying Prices
+[Nov 19 05:30:28 A -05:00] INFO  RepCalcs(0) - Skipping contracts download since yesterday was not a Biz Day
+[Nov 19 05:30:28 A -05:00] INFO  RepCalcs(0) - ********************* Contract Files processing complete. Processed 0 files *********************
+[Nov 19 05:30:28 A -05:00] INFO  RepCalcs(0) - Running analysis on processed client data
+[Nov 19 05:30:28 A -05:00] INFO  RepCalcs(0) - Skipping updating Contract History
+[Nov 19 05:30:28 A -05:00] INFO  RepCalcs(0) - Calculating 18 month load for Monthly contracts (Special case for Macquarie)
+[Nov 19 05:30:30 A -05:00] INFO  RepCalcs(0) - Done with 18 month load calculation
+[Nov 19 05:30:30 A -05:00] INFO  RepCalcs(0) - Running sp_clrRepAnalysis...
+[Nov 19 05:30:30 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:30 A -05:00] INFO  RepData(0) - Querying Hedge based haircut assumptions for NPV
+[Nov 19 05:30:30 A -05:00] INFO  RepData(0) - Done
+[Nov 19 05:30:30 A -05:00] INFO  RepData(0) - Querying Average Weighted Hedge Prices for Clients
+[Nov 19 05:30:30 A -05:00] INFO  RepData(0) - Done
+[Nov 19 05:30:30 A -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 19 05:30:30 A -05:00] INFO  RepCalcs(0) - RUNNING Hedge based Haircuts on PV to get Forward Values 
+[Nov 19 05:30:32 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 05:30:32 A -05:00] INFO  RepCalcs(0) - Inserted 2 values for RepId 6 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 05:30:33 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 05:30:33 A -05:00] INFO  RepCalcs(0) - Inserted 4 values for RepId 21 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 05:30:35 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 05:30:35 A -05:00] INFO  RepCalcs(0) - Inserted 1 values for RepId 41 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 05:30:36 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 05:30:36 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 46 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 05:30:38 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 05:30:38 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 66 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 05:30:39 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 05:30:39 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 76 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 05:30:41 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 05:30:41 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 85 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 05:30:41 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:41 A -05:00] INFO  RepCalcs(0) - UPDATING RCE Count in Esco Assets
+[Nov 19 05:30:42 A -05:00] INFO  RepData(0) - ESCO assets rows updated= 7
+[Nov 19 05:30:42 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:42 A -05:00] INFO  RepCalcs(0) - UPDATING PV values in Daily Compliance table
+[Nov 19 05:30:42 A -05:00] INFO  RepData(0) - Compliance PV rows updated= 0
+[Nov 19 05:30:42 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:42 A -05:00] INFO  RepCalcs(0) - Inserting data into Contract Metrics table
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - RUNNING Esco Out of Money Position calculations
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 85
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 85
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 76
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 76
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 66
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 66
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 46
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 46
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 41
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 41
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 21
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 21
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 6
+[Nov 19 05:30:44 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 6
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:44 A -05:00] INFO  RepCalcs(0) - RUNNING calculation of Adjusted Forward Value of Customer Contracts code aka AFVCC.
+[Nov 19 05:30:44 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(200) - ********************************************************************************
+[Nov 19 05:30:44 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(201) - Starting 'CalculateAfvcc'
+[Nov 19 05:30:44 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(202) - RunDate = 11/19/2018 3:59:59 AM
+[Nov 19 05:30:44 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(203) - Run User = repcalcs
+[Nov 19 05:30:44 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(55) - Invalidating Afvcc values in OrganizationCompliance table for rundate: 11/19/2018 12:00:00 AM
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(66) - Invalidating values in EscoAdjustedForwardValues table for rundate: 11/19/2018 12:00:00 AM
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(76) - Done.
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 6
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 21
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 41
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 46
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 66
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 76
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 85
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(144) - Done.
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(185) - Running calculations for Afvcc
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(188) - Done.
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(94) - Saving changes in Compliance Db
+[Nov 19 05:30:47 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(96) - Done.
+[Nov 19 05:30:47 A -05:00] INFO  RepCalcs(0) - CalculateAfvcc is complete.
+[Nov 19 05:30:47 A -05:00] INFO  RepCalcs(0) - Running sp_clrRepConcRisk...
+[Nov 19 05:30:50 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:50 A -05:00] INFO  RepCalcs(0) - Running RCE calculation update in daily compliance table...
+[Nov 19 05:30:50 A -05:00] INFO  RepData(0) - Daily Compliance rows updated= 0
+[Nov 19 05:30:50 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 05:30:50 A -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 05:30:50 A -05:00] INFO  RepCalcs(0) - ~~ Finished RepCalcs ~
+[Nov 19 05:30:50 A -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 05:30:50 A -05:00] INFO  RepCalcs(0) - Sent logs in email to teamIt
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - 
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - 
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - arg1: 2018-11-19 03:59:59
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - arg2: all
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - arg3: False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - arg4: True
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - 
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ** Starting RepSxdLoad **
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ** ImportContracts: False **
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ** RunPVCalc: False **
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ** RunAnalysis: False **
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: True **
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ** ImportReceivables: True **
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-19 03:59:59
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 19 11:10:00 A -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 19 11:10:00 A -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 19 11:10:00 A -05:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs-Contracts.log.2018-11-03.log
+[Nov 19 11:10:00 A -05:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs.log.2018-11-03.log
+[Nov 19 11:10:00 A -05:00] INFO  DirCleaner(0) - Deleted 2 files in .
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 19 11:10:00 A -05:00] INFO  RepData(0) - Found existing job JobId 4733
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Downloading Receivables for Reps since today a Biz Day
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 85
+[Nov 19 11:10:00 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Download Receivables for Volt ( mailbox repclient85, repId 85 )
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 85
+[Nov 19 11:10:00 A -05:00] INFO  RepCalcs(0) - File Pattern: 11192018 Billed
+[Nov 19 11:10:01 A -05:00] INFO  RepCalcs(0) - Found 11192018 Billed.csv downloading...
+[Nov 19 11:10:03 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:10:03 A -05:00] INFO  RepCalcs(0) - 11192018 Billed.csv
+[Nov 19 11:10:03 A -05:00] INFO  RepCalcs(0) - Rows count:11114
+[Nov 19 11:10:03 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 11:10:03 A -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 85
+[Nov 19 11:12:21 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into Intermediate Table for rep: 85
+[Nov 19 11:12:21 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:12:21 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 19 11:12:21 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenBilled]
+[Nov 19 11:12:21 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 19 11:14:19 A -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:0b9b9ece-6ffc-472c-8430-5a043ecf7daf
+Error Number:515,State:2,Class:16
+[Nov 19 11:14:19 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 11:14:19 A -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 85 import to database
+[Nov 19 11:14:19 A -05:00] INFO  RepCalcs(0) - Volt Receivables billed imported to the N drive
+[Nov 19 11:14:19 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:14:19 A -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 85
+[Nov 19 11:14:19 A -05:00] INFO  RepCalcs(0) - File Pattern: 11192018 UnBilled.csv
+[Nov 19 11:14:20 A -05:00] INFO  RepCalcs(0) - Found 11192018 UnBilled.csv downloading...
+[Nov 19 11:14:20 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:14:20 A -05:00] INFO  RepCalcs(0) - 11192018 UnBilled.csv
+[Nov 19 11:14:20 A -05:00] INFO  RepCalcs(0) - Rows count:10561
+[Nov 19 11:14:20 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 11:14:24 A -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenUnBilled, rep: 85
+[Nov 19 11:14:24 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into intermediate table for rep: 85
+[Nov 19 11:14:24 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:14:24 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 19 11:14:24 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenUnBilled]
+[Nov 19 11:14:24 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 19 11:18:24 A -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:0b9b9ece-6ffc-472c-8430-5a043ecf7daf
+Error Number:515,State:2,Class:16
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 85 import to database
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - Volt Receivables unbilled imported to the N drive
+[Nov 19 11:18:24 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 11:18:24 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - 11192018 Billed.csv transferred to the DB server
+[Nov 19 11:18:24 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - 11192018 UnBilled.csv transferred to the DB server
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:18:24 A -05:00] INFO  RepCalcs(0) - Importing Volt Receivables
+[Nov 19 11:23:54 A -05:00] ERROR RepData(0) - sp_clrRepGenReceivables
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepData.RunRepGenReceivables(Int32 repId)
+ClientConnectionId:0a9a187f-5d1c-4f8f-8c93-d130254ac9fc
+Error Number:515,State:2,Class:16
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 76
+[Nov 19 11:23:54 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Download Receivables for Atlantic ( mailbox repclient76, repId 76 )
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 76
+[Nov 19 11:23:54 A -05:00] INFO  RepCalcs(0) - File Pattern: Atlantic_ARAgedSummaryreport_20181118.csv
+[Nov 19 11:23:55 A -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 11:23:55 A -05:00] ERROR RepCalcs(0) - Problem downloading Billed file for Atlantic
+[Nov 19 11:23:55 A -05:00] INFO  RepCalcs(0) - No Billed file for Atlantic today
+[Nov 19 11:23:55 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:23:55 A -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 11:23:55 A -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Atlantic
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - No UnBilled file for Atlantic today
+[Nov 19 11:23:56 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 66
+[Nov 19 11:23:56 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - Download Receivables for Genie Energy ( mailbox repclient66, repId 66 )
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 11:23:56 A -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 11:23:56 A -05:00] ERROR RepCalcs(0) - Problem downloading Billed file for Genie Energy
+[Nov 19 11:23:56 A -05:00] INFO  RepCalcs(0) - No Billed file for Genie Energy today
+[Nov 19 11:23:56 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:23:57 A -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 11:23:57 A -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Genie Energy
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - No UnBilled file for Genie Energy today
+[Nov 19 11:23:57 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 46
+[Nov 19 11:23:57 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - Download Receivables for Discount ( mailbox repclient46, repId 46 )
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 46
+[Nov 19 11:23:57 A -05:00] INFO  RepCalcs(0) - File Pattern: AR_Detail_As_Of_Date_2018-11-18*.csv
+[Nov 19 11:23:58 A -05:00] INFO  RepCalcs(0) - Found AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv downloading...
+[Nov 19 11:24:11 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:24:11 A -05:00] INFO  RepCalcs(0) - AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv
+[Nov 19 11:24:19 A -05:00] INFO  RepCalcs(0) - Rows count:235898
+[Nov 19 11:24:19 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 11:26:22 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenBilled for Rep: 46
+[Nov 19 11:27:11 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepBilledARAnalysis_Discount
+[Nov 19 11:27:13 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:27:16 A -05:00] INFO  RepCalcs(0) - Finished inserting into clr_RepbilledARAnalysis_Discount
+[Nov 19 11:27:18 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:27:19 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenBilled]
+[Nov 19 11:27:19 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 19 11:33:57 A -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:8c02a22b-6555-43b4-82bd-18745f9af7f2
+Error Number:515,State:2,Class:16
+[Nov 19 11:33:57 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 11:33:57 A -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 46 import to database
+[Nov 19 11:33:57 A -05:00] INFO  RepCalcs(0) - Discount Receivables billed imported to the N drive
+[Nov 19 11:33:57 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:33:57 A -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 46
+[Nov 19 11:33:57 A -05:00] INFO  RepCalcs(0) - File Pattern: UBL_DP_20181119.csv
+[Nov 19 11:33:58 A -05:00] INFO  RepCalcs(0) - Found UBL_DP_20181119.csv downloading...
+[Nov 19 11:33:59 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:33:59 A -05:00] INFO  RepCalcs(0) - UBL_DP_20181119.csv
+[Nov 19 11:33:59 A -05:00] INFO  RepCalcs(0) - Rows count:270
+[Nov 19 11:33:59 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 11:34:02 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenUnBilled for Rep: 46
+[Nov 19 11:34:02 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepUnBilledARAnalysis_Discount
+[Nov 19 11:34:02 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:34:02 A -05:00] INFO  RepCalcs(0) - Finished Inserting into ARAnalysisUnbilled
+[Nov 19 11:34:02 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:34:02 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenUnBilled]
+[Nov 19 11:34:02 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 19 11:43:51 A -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:8c02a22b-6555-43b4-82bd-18745f9af7f2
+Error Number:515,State:2,Class:16
+[Nov 19 11:43:51 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 11:43:51 A -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 46 import to database
+[Nov 19 11:43:51 A -05:00] INFO  RepCalcs(0) - Discount Receivables unbilled imported to the N drive
+[Nov 19 11:43:51 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:43:51 A -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 11:43:58 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 11:43:58 A -05:00] INFO  RepCalcs(0) - AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv transferred to the DB server
+[Nov 19 11:43:58 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 11:43:58 A -05:00] INFO  RepCalcs(0) - UBL_DP_20181119.csv transferred to the DB server
+[Nov 19 11:43:58 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:43:58 A -05:00] INFO  RepCalcs(0) - Importing Discount Receivables
+[Nov 19 11:54:50 A -05:00] ERROR RepData(0) - sp_clrRepGenReceivables
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepData.RunRepGenReceivables(Int32 repId)
+ClientConnectionId:0a9a187f-5d1c-4f8f-8c93-d130254ac9fc
+Error Number:515,State:2,Class:16
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 41
+[Nov 19 11:54:50 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Download Receivables for GB Power ( mailbox repclient81, repId 41 )
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 41
+[Nov 19 11:54:50 A -05:00] INFO  RepCalcs(0) - File Pattern: 181119000*_VantageBilled.csv
+[Nov 19 11:54:51 A -05:00] INFO  RepCalcs(0) - Found 1811190001_VantageBilled.csv downloading...
+[Nov 19 11:54:52 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:54:52 A -05:00] INFO  RepCalcs(0) - 1811190001_VantageBilled.csv
+[Nov 19 11:54:52 A -05:00] INFO  RepCalcs(0) - Rows count:1545
+[Nov 19 11:54:52 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 11:54:52 A -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 41
+[Nov 19 11:56:52 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:56:52 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 41 in [clr_RepGenBilled]
+[Nov 19 11:56:52 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 41
+[Nov 19 11:58:52 A -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:d7db9c37-00b5-4dee-9a43-74b537c61db5
+Error Number:515,State:2,Class:16
+[Nov 19 11:58:52 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 11:58:52 A -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 41 import to database
+[Nov 19 11:58:52 A -05:00] INFO  RepCalcs(0) - GB Power Receivables billed imported to the N drive
+[Nov 19 11:58:52 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 11:58:52 A -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 41
+[Nov 19 11:58:52 A -05:00] INFO  RepCalcs(0) - File Pattern: 181119000*_VantageUnbilled.csv
+[Nov 19 11:58:53 A -05:00] INFO  RepCalcs(0) - Found 1811190002_VantageUnbilled.csv downloading...
+[Nov 19 11:58:54 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 11:58:54 A -05:00] INFO  RepCalcs(0) - 1811190002_VantageUnbilled.csv
+[Nov 19 11:58:54 A -05:00] INFO  RepCalcs(0) - Rows count:1723
+[Nov 19 11:58:54 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 11:58:54 A -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 41
+[Nov 19 11:58:57 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 11:58:57 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 41 in [clr_RepGenUnBilled]
+[Nov 19 11:58:57 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 41
+[Nov 19 12:02:13 P -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:d7db9c37-00b5-4dee-9a43-74b537c61db5
+Error Number:515,State:2,Class:16
+[Nov 19 12:02:13 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 12:02:13 P -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 41 import to database
+[Nov 19 12:02:13 P -05:00] INFO  RepCalcs(0) - GB Power Receivables unbilled imported to the N drive
+[Nov 19 12:02:13 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 12:02:14 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 12:02:14 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 12:02:14 P -05:00] INFO  RepCalcs(0) - 1811190001_VantageBilled.csv transferred to the DB server
+[Nov 19 12:02:14 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 12:02:14 P -05:00] INFO  RepCalcs(0) - 1811190002_VantageUnbilled.csv transferred to the DB server
+[Nov 19 12:02:14 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 12:02:14 P -05:00] INFO  RepCalcs(0) - Importing GB Power Receivables
+[Nov 19 12:05:48 P -05:00] ERROR RepData(0) - sp_clrRepGenReceivables
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepData.RunRepGenReceivables(Int32 repId)
+ClientConnectionId:0a9a187f-5d1c-4f8f-8c93-d130254ac9fc
+Error Number:515,State:2,Class:16
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 21
+[Nov 19 12:05:48 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Download Receivables for Lexington ( mailbox repclient13, repId 21 )
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Inserted 2 rows in EscoReceivables
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Running ECI receivables for Lexington
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - FilePattern:Lexington_Billed_381_V2020181119
+[Nov 19 12:05:48 P -05:00] ERROR RepCalcs(0) - System.IO.FileNotFoundException: Could not find file 'D:\CE\RepCalcs\test'.
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.ValidatePath(String path)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.InitializeFromPath(String path, Encoding defaultEncoding, Boolean detectEncoding)
+   at RepCalcs.GetDataTableFromCSVFile(String csvFilePath)
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - csvFilePathLex:test
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Rows count:0
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Deleted old contents of: [clr_RepBilled_Lex]
+[Nov 19 12:05:48 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 21 in [clr_RepBilled_Lex]
+[Nov 19 12:13:45 P -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_insertLexReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+Running Sp_clrRepGenReceivables to input these values into clr_repdailyCompliance
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertDataIntoSqlServerUsingSqlBulkCopy(DataTable csvFileData, Int32 ClientRepId, Boolean isBilled)
+ClientConnectionId:c558bda9-6753-485c-abf4-9c288cb57112
+Error Number:515,State:2,Class:16
+[Nov 19 12:13:45 P -05:00] INFO  RepCalcs(0) - Done Lex receivables billed import to database
+[Nov 19 12:13:45 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 12:13:45 P -05:00] ERROR RepCalcs(0) - System.IO.FileNotFoundException: Could not find file 'D:\CE\RepCalcs\test'.
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.ValidatePath(String path)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.InitializeFromPath(String path, Encoding defaultEncoding, Boolean detectEncoding)
+   at RepCalcs.GetDataTableFromCSVFile(String csvFilePath)
+[Nov 19 12:13:45 P -05:00] INFO  RepCalcs(0) - test
+[Nov 19 12:13:45 P -05:00] INFO  RepCalcs(0) - Rows count:0
+[Nov 19 12:13:45 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 12:13:45 P -05:00] INFO  RepCalcs(0) - Deleted old contents of: [clr_RepUnBilled_Lex]
+[Nov 19 12:13:45 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 21 in [clr_RepUnBilled_Lex]
+[Nov 19 12:22:16 P -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_insertLexReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+Running Sp_clrRepGenReceivables to input these values into clr_repdailyCompliance
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertDataIntoSqlServerUsingSqlBulkCopy(DataTable csvFileData, Int32 ClientRepId, Boolean isBilled)
+ClientConnectionId:c558bda9-6753-485c-abf4-9c288cb57112
+Error Number:515,State:2,Class:16
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - Done Lex receivables unbilled import to database
+[Nov 19 12:22:16 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 12:22:16 P -05:00] ERROR RepCalcs(0) - Problem moving Receivables to N Drive
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 6
+[Nov 19 12:22:16 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - Download Receivables for APG ( mailbox repclient12, repId 6 )
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 12:22:16 P -05:00] INFO  RepCalcs(0) - Inserted 2 rows in EscoReceivables
+[Nov 19 12:22:17 P -05:00] INFO  RepCalcs(0) - Found APG_Billed_111918.csv downloading...
+[Nov 19 12:22:19 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 12:22:19 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 12:22:20 P -05:00] INFO  RepCalcs(0) - Found APG_Unbilled_111918.csv downloading...
+[Nov 19 12:22:22 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 12:22:22 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 12:22:22 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 12:22:23 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 12:22:23 P -05:00] INFO  RepCalcs(0) - APG_Billed_11-19-2018.csv transferred to the DB server
+[Nov 19 12:22:24 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 12:22:24 P -05:00] INFO  RepCalcs(0) - APG_Unbilled_11-19-2018.csv transferred to the DB server
+[Nov 19 12:22:24 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 12:22:24 P -05:00] INFO  RepCalcs(0) - Importing APG Receivables
+[Nov 19 12:29:44 P -05:00] ERROR RepData(0) - sp_clrRepGenReceivables
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepData.RunRepGenReceivables(Int32 repId)
+ClientConnectionId:0a9a187f-5d1c-4f8f-8c93-d130254ac9fc
+Error Number:515,State:2,Class:16
+[Nov 19 12:29:44 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 12:29:44 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 12:29:44 P -05:00] INFO  RepCalcs(0) - Done with Receivables
+[Nov 19 12:29:44 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 12:29:44 P -05:00] INFO  RepCalcs(0) - ~~ Finished RepSxdLoad ~
+[Nov 19 12:29:44 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 12:29:44 P -05:00] INFO  RepCalcs(0) - Sent logs in email to teamIt
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - arg1: 2018-11-19 03:59:59
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - arg2: all
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - arg3: False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - arg4: True
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ** Starting RepSxdLoad **
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ** ImportContracts: False **
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ** RunPVCalc: False **
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ** RunAnalysis: False **
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: True **
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ** ImportReceivables: True **
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-19 03:59:59
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 19 14:16:06 P -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 19 14:16:06 P -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 19 14:16:06 P -05:00] INFO  RepData(0) - Found existing job JobId 4733
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Downloading Receivables for Reps since today a Biz Day
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 85
+[Nov 19 14:16:06 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Download Receivables for Volt ( mailbox repclient85, repId 85 )
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 85
+[Nov 19 14:16:06 P -05:00] INFO  RepCalcs(0) - File Pattern: 11192018 Billed
+[Nov 19 14:16:07 P -05:00] INFO  RepCalcs(0) - Found 11192018 Billed.csv downloading...
+[Nov 19 14:16:08 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:16:08 P -05:00] INFO  RepCalcs(0) - 11192018 Billed.csv
+[Nov 19 14:16:08 P -05:00] INFO  RepCalcs(0) - Rows count:11114
+[Nov 19 14:16:08 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 14:16:08 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 85
+[Nov 19 14:18:24 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into Intermediate Table for rep: 85
+[Nov 19 14:18:24 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 14:18:24 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 19 14:18:24 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenBilled]
+[Nov 19 14:18:24 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 19 14:20:29 P -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:90bd8e92-daad-4b45-939d-7d5bad76a6cf
+Error Number:515,State:2,Class:16
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 85 import to database
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - Volt Receivables billed imported to the N drive
+[Nov 19 14:20:29 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 85
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - File Pattern: 11192018 UnBilled.csv
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - Found 11192018 UnBilled.csv downloading...
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:20:29 P -05:00] INFO  RepCalcs(0) - 11192018 UnBilled.csv
+[Nov 19 14:20:30 P -05:00] INFO  RepCalcs(0) - Rows count:10561
+[Nov 19 14:20:30 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 14:20:33 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenUnBilled, rep: 85
+[Nov 19 14:20:33 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into intermediate table for rep: 85
+[Nov 19 14:20:33 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 14:20:33 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 19 14:20:33 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenUnBilled]
+[Nov 19 14:20:33 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 19 14:23:58 P -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:90bd8e92-daad-4b45-939d-7d5bad76a6cf
+Error Number:515,State:2,Class:16
+[Nov 19 14:23:58 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 14:23:58 P -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 85 import to database
+[Nov 19 14:23:58 P -05:00] INFO  RepCalcs(0) - Volt Receivables unbilled imported to the N drive
+[Nov 19 14:23:58 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 14:23:58 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 14:23:58 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 14:23:58 P -05:00] INFO  RepCalcs(0) - 11192018 Billed.csv transferred to the DB server
+[Nov 19 14:23:59 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 14:23:59 P -05:00] INFO  RepCalcs(0) - 11192018 UnBilled.csv transferred to the DB server
+[Nov 19 14:23:59 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:23:59 P -05:00] INFO  RepCalcs(0) - Importing Volt Receivables
+[Nov 19 14:28:24 P -05:00] ERROR RepData(0) - sp_clrRepGenReceivables
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepData.RunRepGenReceivables(Int32 repId)
+ClientConnectionId:809f7143-ef82-4646-b684-44fd9357060f
+Error Number:515,State:2,Class:16
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 76
+[Nov 19 14:28:24 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Download Receivables for Atlantic ( mailbox repclient76, repId 76 )
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 76
+[Nov 19 14:28:24 P -05:00] INFO  RepCalcs(0) - File Pattern: Atlantic_ARAgedSummaryreport_20181118.csv
+[Nov 19 14:28:25 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 14:28:25 P -05:00] ERROR RepCalcs(0) - Problem downloading Billed file for Atlantic
+[Nov 19 14:28:25 P -05:00] INFO  RepCalcs(0) - No Billed file for Atlantic today
+[Nov 19 14:28:25 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 14:28:26 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 14:28:26 P -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Atlantic
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - No UnBilled file for Atlantic today
+[Nov 19 14:28:26 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 66
+[Nov 19 14:28:26 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - Download Receivables for Genie Energy ( mailbox repclient66, repId 66 )
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 14:28:26 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 14:28:27 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 14:28:27 P -05:00] ERROR RepCalcs(0) - Problem downloading Billed file for Genie Energy
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - No Billed file for Genie Energy today
+[Nov 19 14:28:27 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 14:28:27 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 14:28:27 P -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Genie Energy
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - No UnBilled file for Genie Energy today
+[Nov 19 14:28:27 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 46
+[Nov 19 14:28:27 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - Download Receivables for Discount ( mailbox repclient46, repId 46 )
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 46
+[Nov 19 14:28:27 P -05:00] INFO  RepCalcs(0) - File Pattern: AR_Detail_As_Of_Date_2018-11-18*.csv
+[Nov 19 14:28:28 P -05:00] INFO  RepCalcs(0) - Found AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv downloading...
+[Nov 19 14:28:40 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:28:40 P -05:00] INFO  RepCalcs(0) - AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv
+[Nov 19 14:28:48 P -05:00] INFO  RepCalcs(0) - Rows count:235898
+[Nov 19 14:28:48 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 14:31:18 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenBilled for Rep: 46
+[Nov 19 14:32:08 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepBilledARAnalysis_Discount
+[Nov 19 14:32:10 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 14:32:11 P -05:00] INFO  RepCalcs(0) - Finished inserting into clr_RepbilledARAnalysis_Discount
+[Nov 19 14:32:13 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 14:32:14 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenBilled]
+[Nov 19 14:32:14 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 19 14:39:30 P -05:00] ERROR RepCalcs(0) - Couldn't execute [sp_clrRepGenReceivables]
+System.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'PA9', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA10', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA11', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+Cannot insert the value NULL into column 'PA12', table 'APX2000.dbo.clr_RepDailyCompliance'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at RepCalcs.InsertReceivablesIntoDailyComplianceUsingSP(Int32 repId, DateTime ptd, SqlConnection conn)
+ClientConnectionId:c35519cb-6c96-44ef-abd0-2b4b1355e998
+Error Number:515,State:2,Class:16
+[Nov 19 14:39:30 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 14:39:30 P -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 46 import to database
+[Nov 19 14:39:30 P -05:00] INFO  RepCalcs(0) - Discount Receivables billed imported to the N drive
+[Nov 19 14:39:30 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 14:39:30 P -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 46
+[Nov 19 14:39:30 P -05:00] INFO  RepCalcs(0) - File Pattern: UBL_DP_20181119.csv
+[Nov 19 14:39:31 P -05:00] INFO  RepCalcs(0) - Found UBL_DP_20181119.csv downloading...
+[Nov 19 14:39:31 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:39:31 P -05:00] INFO  RepCalcs(0) - UBL_DP_20181119.csv
+[Nov 19 14:39:31 P -05:00] INFO  RepCalcs(0) - Rows count:270
+[Nov 19 14:39:31 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 14:39:35 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenUnBilled for Rep: 46
+[Nov 19 14:39:35 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepUnBilledARAnalysis_Discount
+[Nov 19 14:39:35 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 14:39:35 P -05:00] INFO  RepCalcs(0) - Finished Inserting into ARAnalysisUnbilled
+[Nov 19 14:39:35 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 14:39:35 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenUnBilled]
+[Nov 19 14:39:35 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - arg1: 2018-11-19 03:59:59
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - arg2: Edf
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ** Starting RepCalcs **
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ** ImportContracts: True **
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ** RunPVCalc: True **
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ** RunAnalysis: True **
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: False **
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ** ImportReceivables: False **
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-19 03:59:59
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 19 14:53:49 P -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 19 14:53:49 P -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 19 14:53:49 P -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 19 14:53:49 P -05:00] INFO  RepData(0) - Found existing job JobId 4733
+[Nov 19 14:53:49 P -05:00] INFO  RepData(0) - Querying Power Prices...
+[Nov 19 14:53:49 P -05:00] INFO  RepData(0) - Clearing Ptd= 11/19/2018 12:00:00 AM
+[Nov 19 14:54:07 P -05:00] INFO  RepData(0) - Querying Gas Prices...
+[Nov 19 14:54:09 P -05:00] INFO  RepData(0) - Done Querying Prices
+[Nov 19 14:54:09 P -05:00] INFO  RepCalcs(0) - Skipping contracts download since yesterday was not a Biz Day
+[Nov 19 14:54:09 P -05:00] INFO  RepCalcs(0) - ********************* Contract Files processing complete. Processed 0 files *********************
+[Nov 19 14:54:09 P -05:00] INFO  RepCalcs(0) - Running analysis on processed client data
+[Nov 19 14:54:09 P -05:00] INFO  RepCalcs(0) - Skipping updating Contract History
+[Nov 19 14:54:09 P -05:00] INFO  RepCalcs(0) - Calculating 18 month load for Monthly contracts (Special case for Macquarie)
+[Nov 19 14:54:10 P -05:00] INFO  RepCalcs(0) - Done with 18 month load calculation
+[Nov 19 14:54:10 P -05:00] INFO  RepCalcs(0) - Running sp_clrRepAnalysis...
+[Nov 19 14:54:11 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:11 P -05:00] INFO  RepData(0) - Querying Hedge based haircut assumptions for NPV
+[Nov 19 14:54:11 P -05:00] INFO  RepData(0) - Done
+[Nov 19 14:54:11 P -05:00] INFO  RepData(0) - Querying Average Weighted Hedge Prices for Clients
+[Nov 19 14:54:11 P -05:00] INFO  RepData(0) - Done
+[Nov 19 14:54:11 P -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 19 14:54:11 P -05:00] INFO  RepCalcs(0) - RUNNING Hedge based Haircuts on PV to get Forward Values 
+[Nov 19 14:54:35 P -05:00] INFO  RepCalcs(0) - Replaced 2 values in Esco Assets
+[Nov 19 14:54:35 P -05:00] INFO  RepCalcs(0) - Inserted 2 values for RepId 6 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 14:54:37 P -05:00] INFO  RepCalcs(0) - Replaced 4 values in Esco Assets
+[Nov 19 14:54:37 P -05:00] INFO  RepCalcs(0) - Inserted 4 values for RepId 21 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 14:54:38 P -05:00] INFO  RepCalcs(0) - Replaced 1 values in Esco Assets
+[Nov 19 14:54:38 P -05:00] INFO  RepCalcs(0) - Inserted 1 values for RepId 41 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 14:54:39 P -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 14:54:39 P -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 46 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 14:54:41 P -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 14:54:41 P -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 66 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 14:54:42 P -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 14:54:42 P -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 76 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 14:54:44 P -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 19 14:54:44 P -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 85 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 19 14:54:44 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:44 P -05:00] INFO  RepCalcs(0) - UPDATING RCE Count in Esco Assets
+[Nov 19 14:54:45 P -05:00] INFO  RepData(0) - ESCO assets rows updated= 7
+[Nov 19 14:54:45 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:45 P -05:00] INFO  RepCalcs(0) - UPDATING PV values in Daily Compliance table
+[Nov 19 14:54:45 P -05:00] INFO  RepData(0) - Compliance PV rows updated= 3
+[Nov 19 14:54:45 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:45 P -05:00] INFO  RepCalcs(0) - Inserting data into Contract Metrics table
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:50 P -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - RUNNING Esco Out of Money Position calculations
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 85
+[Nov 19 14:54:50 P -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 85
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 76
+[Nov 19 14:54:50 P -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 76
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 66
+[Nov 19 14:54:50 P -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 66
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 46
+[Nov 19 14:54:50 P -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 46
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 41
+[Nov 19 14:54:50 P -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 41
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:50 P -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 21
+[Nov 19 14:54:50 P -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 21
+[Nov 19 14:54:51 P -05:00] INFO  RepCalcs(0) - Inserting Esco In Money Positions data rows for repId 21 and Commodity 0
+[Nov 19 14:54:51 P -05:00] INFO  RepCalcs(0) - Inserting Esco Out of Money Positions data rows for repId 21 and Commodity 0
+[Nov 19 14:54:51 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:51 P -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 6
+[Nov 19 14:54:51 P -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 6
+[Nov 19 14:54:53 P -05:00] INFO  RepCalcs(0) - Inserting Esco In Money Positions data rows for repId 6 and Commodity 0
+[Nov 19 14:54:53 P -05:00] INFO  RepCalcs(0) - Inserting Esco Out of Money Positions data rows for repId 6 and Commodity 0
+[Nov 19 14:54:53 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:54:53 P -05:00] INFO  RepCalcs(0) - RUNNING calculation of Adjusted Forward Value of Customer Contracts code aka AFVCC.
+[Nov 19 14:54:53 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(200) - ********************************************************************************
+[Nov 19 14:54:53 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(201) - Starting 'CalculateAfvcc'
+[Nov 19 14:54:53 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(202) - RunDate = 11/19/2018 3:59:59 AM
+[Nov 19 14:54:53 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(203) - Run User = repcalcs
+[Nov 19 14:54:53 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(55) - Invalidating Afvcc values in OrganizationCompliance table for rundate: 11/19/2018 12:00:00 AM
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(66) - Invalidating values in EscoAdjustedForwardValues table for rundate: 11/19/2018 12:00:00 AM
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(76) - Done.
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 6
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 21
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 41
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 46
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 66
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 76
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 85
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(144) - Done.
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(185) - Running calculations for Afvcc
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(188) - Done.
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(94) - Saving changes in Compliance Db
+[Nov 19 14:54:56 P -05:00] INFO  CalculateAfvcc.AfvccCalculator(96) - Done.
+[Nov 19 14:54:56 P -05:00] INFO  RepCalcs(0) - CalculateAfvcc is complete.
+[Nov 19 14:54:56 P -05:00] INFO  RepCalcs(0) - Running sp_clrRepConcRisk...
+[Nov 19 14:55:07 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:55:07 P -05:00] INFO  RepCalcs(0) - Running RCE calculation update in daily compliance table...
+[Nov 19 14:55:07 P -05:00] INFO  RepData(0) - Daily Compliance rows updated= 0
+[Nov 19 14:55:07 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:55:07 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 14:55:07 P -05:00] INFO  RepCalcs(0) - ~~ Finished RepCalcs ~
+[Nov 19 14:55:07 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 14:55:07 P -05:00] INFO  RepCalcs(0) - Sent logs in email to teamIt
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - arg1: 2018-11-19 03:59:59
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - arg2: all
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - arg3: False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - arg4: True
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - 
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ** Starting RepSxdLoad **
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ** ImportContracts: False **
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ** RunPVCalc: False **
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ** RunAnalysis: False **
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: True **
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ** ImportReceivables: True **
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - **********************
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-19 03:59:59
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 19 14:56:21 P -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 19 14:56:21 P -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 19 14:56:21 P -05:00] INFO  RepData(0) - Found existing job JobId 4733
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Downloading Receivables for Reps since today a Biz Day
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 85
+[Nov 19 14:56:21 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Download Receivables for Volt ( mailbox repclient85, repId 85 )
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 85
+[Nov 19 14:56:21 P -05:00] INFO  RepCalcs(0) - File Pattern: 11192018 Billed
+[Nov 19 14:56:22 P -05:00] INFO  RepCalcs(0) - Found 11192018 Billed.csv downloading...
+[Nov 19 14:56:23 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 14:56:23 P -05:00] INFO  RepCalcs(0) - 11192018 Billed.csv
+[Nov 19 14:56:23 P -05:00] INFO  RepCalcs(0) - Rows count:11114
+[Nov 19 14:56:23 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 14:56:23 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 85
+[Nov 19 14:57:27 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into Intermediate Table for rep: 85
+[Nov 19 14:57:27 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 14:57:28 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 19 14:57:28 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenBilled]
+[Nov 19 14:57:28 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 85 import to database
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Volt Receivables billed imported to the N drive
+[Nov 19 15:00:30 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 85
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - File Pattern: 11192018 UnBilled.csv
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Found 11192018 UnBilled.csv downloading...
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - 11192018 UnBilled.csv
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Rows count:10561
+[Nov 19 15:00:30 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 15:00:38 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenUnBilled, rep: 85
+[Nov 19 15:00:38 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into intermediate table for rep: 85
+[Nov 19 15:00:38 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 15:00:38 P -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 19 15:00:38 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenUnBilled]
+[Nov 19 15:00:38 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 19 15:03:38 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 15:03:38 P -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 85 import to database
+[Nov 19 15:03:38 P -05:00] INFO  RepCalcs(0) - Volt Receivables unbilled imported to the N drive
+[Nov 19 15:03:38 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:03:39 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 15:03:39 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 15:03:39 P -05:00] INFO  RepCalcs(0) - 11192018 Billed.csv transferred to the DB server
+[Nov 19 15:03:39 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 15:03:39 P -05:00] INFO  RepCalcs(0) - 11192018 UnBilled.csv transferred to the DB server
+[Nov 19 15:03:39 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:03:39 P -05:00] INFO  RepCalcs(0) - Importing Volt Receivables
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 76
+[Nov 19 15:08:22 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Download Receivables for Atlantic ( mailbox repclient76, repId 76 )
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 76
+[Nov 19 15:08:22 P -05:00] INFO  RepCalcs(0) - File Pattern: Atlantic_ARAgedSummaryreport_20181118.csv
+[Nov 19 15:08:23 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 15:08:23 P -05:00] ERROR RepCalcs(0) - Problem downloading Billed file for Atlantic
+[Nov 19 15:08:23 P -05:00] INFO  RepCalcs(0) - No Billed file for Atlantic today
+[Nov 19 15:08:23 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:08:24 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 15:08:24 P -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Atlantic
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - No UnBilled file for Atlantic today
+[Nov 19 15:08:24 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 66
+[Nov 19 15:08:24 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - Download Receivables for Genie Energy ( mailbox repclient66, repId 66 )
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 15:08:24 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 15:08:24 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 15:08:24 P -05:00] ERROR RepCalcs(0) - Problem downloading Billed file for Genie Energy
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - No Billed file for Genie Energy today
+[Nov 19 15:08:25 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:08:25 P -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 19 15:08:25 P -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Genie Energy
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - No UnBilled file for Genie Energy today
+[Nov 19 15:08:25 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 46
+[Nov 19 15:08:25 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - Download Receivables for Discount ( mailbox repclient46, repId 46 )
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 46
+[Nov 19 15:08:25 P -05:00] INFO  RepCalcs(0) - File Pattern: AR_Detail_As_Of_Date_2018-11-18*.csv
+[Nov 19 15:08:26 P -05:00] INFO  RepCalcs(0) - Found AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv downloading...
+[Nov 19 15:08:37 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:08:37 P -05:00] INFO  RepCalcs(0) - AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv
+[Nov 19 15:08:45 P -05:00] INFO  RepCalcs(0) - Rows count:235898
+[Nov 19 15:08:45 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 15:10:56 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenBilled for Rep: 46
+[Nov 19 15:11:45 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepBilledARAnalysis_Discount
+[Nov 19 15:11:47 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 15:11:48 P -05:00] INFO  RepCalcs(0) - Finished inserting into clr_RepbilledARAnalysis_Discount
+[Nov 19 15:11:50 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 15:11:51 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenBilled]
+[Nov 19 15:11:51 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 19 15:18:39 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 15:18:39 P -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 46 import to database
+[Nov 19 15:18:39 P -05:00] INFO  RepCalcs(0) - Discount Receivables billed imported to the N drive
+[Nov 19 15:18:39 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:18:39 P -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 46
+[Nov 19 15:18:39 P -05:00] INFO  RepCalcs(0) - File Pattern: UBL_DP_20181119.csv
+[Nov 19 15:18:39 P -05:00] INFO  RepCalcs(0) - Found UBL_DP_20181119.csv downloading...
+[Nov 19 15:18:40 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:18:40 P -05:00] INFO  RepCalcs(0) - UBL_DP_20181119.csv
+[Nov 19 15:18:40 P -05:00] INFO  RepCalcs(0) - Rows count:270
+[Nov 19 15:18:40 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 15:18:43 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenUnBilled for Rep: 46
+[Nov 19 15:18:43 P -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepUnBilledARAnalysis_Discount
+[Nov 19 15:18:43 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 15:18:43 P -05:00] INFO  RepCalcs(0) - Finished Inserting into ARAnalysisUnbilled
+[Nov 19 15:18:43 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 15:18:43 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenUnBilled]
+[Nov 19 15:18:43 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 19 15:28:18 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 15:28:18 P -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 46 import to database
+[Nov 19 15:28:18 P -05:00] INFO  RepCalcs(0) - Discount Receivables unbilled imported to the N drive
+[Nov 19 15:28:18 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:28:18 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 15:28:25 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 15:28:25 P -05:00] INFO  RepCalcs(0) - AR_Detail_As_Of_Date_2018-11-18.20.03_20181118_200232.csv transferred to the DB server
+[Nov 19 15:28:25 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 15:28:25 P -05:00] INFO  RepCalcs(0) - UBL_DP_20181119.csv transferred to the DB server
+[Nov 19 15:28:25 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:28:25 P -05:00] INFO  RepCalcs(0) - Importing Discount Receivables
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 41
+[Nov 19 15:39:40 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Download Receivables for GB Power ( mailbox repclient81, repId 41 )
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 41
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - File Pattern: 181119000*_VantageBilled.csv
+[Nov 19 15:39:40 P -05:00] INFO  RepCalcs(0) - Found 1811190001_VantageBilled.csv downloading...
+[Nov 19 15:39:41 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:39:41 P -05:00] INFO  RepCalcs(0) - 1811190001_VantageBilled.csv
+[Nov 19 15:39:41 P -05:00] INFO  RepCalcs(0) - Rows count:1545
+[Nov 19 15:39:41 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 15:39:41 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 41
+[Nov 19 15:41:51 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 15:41:51 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 41 in [clr_RepGenBilled]
+[Nov 19 15:41:51 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 41
+[Nov 19 15:43:42 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 15:43:42 P -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 41 import to database
+[Nov 19 15:43:42 P -05:00] INFO  RepCalcs(0) - GB Power Receivables billed imported to the N drive
+[Nov 19 15:43:42 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:43:42 P -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 41
+[Nov 19 15:43:42 P -05:00] INFO  RepCalcs(0) - File Pattern: 181119000*_VantageUnbilled.csv
+[Nov 19 15:43:42 P -05:00] INFO  RepCalcs(0) - Found 1811190002_VantageUnbilled.csv downloading...
+[Nov 19 15:43:43 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:43:43 P -05:00] INFO  RepCalcs(0) - 1811190002_VantageUnbilled.csv
+[Nov 19 15:43:43 P -05:00] INFO  RepCalcs(0) - Rows count:1723
+[Nov 19 15:43:43 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 15:43:43 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 41
+[Nov 19 15:43:47 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 19 15:43:47 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 41 in [clr_RepGenUnBilled]
+[Nov 19 15:43:47 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 41
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 41 import to database
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - GB Power Receivables unbilled imported to the N drive
+[Nov 19 15:48:16 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 15:48:16 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - 1811190001_VantageBilled.csv transferred to the DB server
+[Nov 19 15:48:16 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - 1811190002_VantageUnbilled.csv transferred to the DB server
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 15:48:16 P -05:00] INFO  RepCalcs(0) - Importing GB Power Receivables
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 21
+[Nov 19 15:53:00 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Download Receivables for Lexington ( mailbox repclient13, repId 21 )
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Deleted 2 rows in EscoReceivables
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Inserted 2 rows in EscoReceivables
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Running ECI receivables for Lexington
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - FilePattern:Lexington_Billed_381_V2020181119
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Filename: Lexington_Billed_381_V20201811191015077889422.csv
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - FileCount: 1
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - csvFilePathLex:D:\CE\Repcalcs\FTPFiles\Receivables\Lexington\Lexington_Billed_381_V20201811191015077889422.csv
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Rows count:13723
+[Nov 19 15:53:00 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 15:53:01 P -05:00] INFO  RepCalcs(0) - Deleted old contents of: [clr_RepBilled_Lex]
+[Nov 19 15:53:01 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 21 in [clr_RepBilled_Lex]
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - Done Lex receivables billed import to database
+[Nov 19 16:01:17 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - Filename: Lexington Unbilled_381_V20201811191010072101663.csv
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - 1
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - D:\CE\Repcalcs\FTPFiles\Receivables\Lexington\Lexington Unbilled_381_V20201811191010072101663.csv
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - Rows count:1819
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - Deleted old contents of: [clr_RepUnBilled_Lex]
+[Nov 19 16:01:17 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 21 in [clr_RepUnBilled_Lex]
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - Done Lex receivables unbilled import to database
+[Nov 19 16:09:09 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 16:09:09 P -05:00] ERROR RepCalcs(0) - Problem moving Receivables to N Drive
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 6
+[Nov 19 16:09:09 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - Download Receivables for APG ( mailbox repclient12, repId 6 )
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - Deleted 2 rows in EscoReceivables
+[Nov 19 16:09:09 P -05:00] INFO  RepCalcs(0) - Inserted 2 rows in EscoReceivables
+[Nov 19 16:09:10 P -05:00] INFO  RepCalcs(0) - Found APG_Billed_111918.csv downloading...
+[Nov 19 16:09:12 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 16:09:12 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 16:09:13 P -05:00] INFO  RepCalcs(0) - Found APG_Unbilled_111918.csv downloading...
+[Nov 19 16:09:14 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 16:09:14 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 19 16:09:14 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 19 16:09:16 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 16:09:16 P -05:00] INFO  RepCalcs(0) - APG_Billed_11-19-2018.csv transferred to the DB server
+[Nov 19 16:09:16 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 19 16:09:16 P -05:00] INFO  RepCalcs(0) - APG_Unbilled_11-19-2018.csv transferred to the DB server
+[Nov 19 16:09:16 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 19 16:09:16 P -05:00] INFO  RepCalcs(0) - Importing APG Receivables
+[Nov 19 16:16:22 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 19 16:16:22 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 19 16:16:22 P -05:00] INFO  RepCalcs(0) - Done with Receivables
+[Nov 19 16:16:22 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 16:16:22 P -05:00] INFO  RepCalcs(0) - ~~ Finished RepSxdLoad ~
+[Nov 19 16:16:22 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 16:16:22 P -05:00] INFO  RepCalcs(0) - Sent logs in email to teamIt

@@ -1,0 +1,137 @@
+Came up with two solutions to automate log checking
+
+
+1. Machine learning based algorithm
+	- reads the log file and based on its learned data makes a guess as to whether the file is a success or a failure and needs to be reviewed
+	- idea is to cut out time of reading logs that are success
+	- currently only way to determine this is through manually going thru the file
+	- currently this approach is not always accurate due to the lack of an ample data set
+	- current set contains only < 30 logs
+	- need a lot more to be as accurate as possible
+	- real issue is lacking in failure examples
+	
+	Benchmark 2:
+	- Algorithm seems to be working after some tweaks
+	- slowly building dataset with more files
+	- now setting up automated part of reading 
+	- getting it into task scheduler
+	- having it run at specific time, getting right file, outputting prediction somewhere
+	DONE
+							 
+
+IDea ==> make this a two step process
+	- ML will determine whether the log was a success or failure
+	- if failure, then unleash the log parser to determine the error 
+	- maybe do manual/dictionary lookup here to reveal error and suggested solution
+
+				 
+2. Text Parsing of the Log Files			
+	- maybe parse the log into its separate sections --> EDF Prices, M2M, Positions, etc
+	- for each section analyze the amount of errors and then report the total to the google sheet
+	- ties into making a gui for log reports
+	- gui should be able to parse out an error from the file aka identify why the log is being 
+	  classified as a failure
+
+start working on pulling errors from the log files 
+how to identify errors
+
+for opening the correct corresponding file, need to pass date as parameter then append to file path location
+this applies for monday logic when having saturday and sunday display only
+since every other day will just be the generic file name without the date in it
+-> EX. EdfDump.log vs EdfDump.log.2019-01-02.log
+
+maybe write another machine learning script to identify errors as 3 classes 
+
+when log is deemed Failure/Error
+	-> do text parsing to pull out all the lines that are labeled as ERROR
+	-> then classify them as below
+	-> report these lines as the following 3 classes 
+
+
+- None critical --> this would be like when it says error when backtracking through files with dates
+	- EX. Unable to download...file...aborting
+	-	this is none critical when the program backtracks and eventually finds a file to use
+- Small Issue --> this would be like when no files were used, tried backtracking, but ultimately failed
+	- EX.  Connect returned false...Aborting Supplier data Download Process
+		- this is not too critical, can be solved by a rerun of the process
+	- maybe use the text parsing here to pull out the exact lines that correspond to the issue
+- Fatal --> haven't really experienced any fatal issues 
+	- so anything that doesnt fall in the other two categories should fall here 
+
+
+
+so if the classification was Failure/Error, then the script needs to open the file
+--> maybe change the status display from a label to a button that will open the log file/display more 
+	details if its a success or list out the different errors classified if its a fail 
+
+- added the feature of opening the log file using the status as button click DONE
+
+
+- now need to add control flow logic, aka button click should be different depending on status
+if failure, run the ml script of error classification OR just print out all the errors
+
+start with printing out all the error lines in the log ====>>>>>> DONE
+all errors lines are being printed to GUI
+
+
+
+another idea --> put all troubleshooting into the gui
+-> EX. if the ML script said the log file had errors/was a failure
+	-> you can view each of the errors and if it was incorrectly classified then have some functions
+		or buttons that will 
+		a) change its classification to success
+		b) then move the file into the success folder in the dataset, so that the script can use
+			it and learn better from this newly added example
+
+
+
+Current STATE of Project:
+
+EDFDUMP 
+--> Open Log Option if it was a success
+--> View Errors if it was a failure
+	--> prints all errror lines and some context for those lines to the gui
+	-->  can see all the errors now but still clunky with text
+	->> create separate view for each section (Prices, Shaped Positions, M2M)
+	->> will need a way to parse these out individually ->>>>>>>>>>>>>>>>>>>>>>>>>>> DONE
+
+
+
+taking a break from classifying errors as this might prove to be tricky, still need to break it down further
+for now, trying to figure out a way to communicate with google sheets api to upload EdfDump result
+
+can fill in the success and if error it can automatically fill out the comments section
+
+to get the row to fill in use google sheets MATCH command to locate the row num
+
+then add it to the beginning of where the search started and pass that to the ADDRESS command
+	to get the cell address of that date
+
+and then we can fill out the cells for that
+
+Finished automatic updating and manual updating of EDFDump Status on Dashboard
+- still remaining bug is manual updates on monday's
+	since the Dashboard update script will use the ptd to locate the cell the update buttons will
+	all affect the ptd's cell and not the corresponding cell
+- possible fix is to subtract 1 from the ptd cell address to get sunday's row and subtract 2 to get
+	saturday's row, the columns will remain the same --> nothing to change here
+
+for tomorrow add all the control flow logic to handle the case that it is monday
+	--> pass in a int representing the day of the week to the button command
+	--> the export script will set the cell for insert accordingly >>>>>>>>>>>>>>>>> DONE
+
+		app password of sourcetree fepYAsgZ8vBDNG9bkHw8
+___________________________________________________________________________________________
+|											  |
+TODO:
+add a script for classifying these errors, similar to the way the dashboard is filled out
+	-> Success, small issue, critical (see above for more)
+	->> to do this, will have to create the data set by getting errors that 
+		correspond to specific sections of the process
+	-> cant really classify each error line individually since 
+
+add a way to view other date's files by clicking on the date in the mainpage 
+	maybe leads to a dropdown or calender view where you can select a date
+		but it will only be able to look at files on the server regardless since there 
+		is a directory cleaner that runs
+

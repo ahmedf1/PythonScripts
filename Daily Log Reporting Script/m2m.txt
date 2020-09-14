@@ -1,0 +1,36 @@
+[Sep 02 06:30:16 A -04:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Sep 02 06:30:16 A -04:00] INFO  EDFDump RunM2MEdf(0) - * Encompass M2M *
+[Sep 02 06:30:16 A -04:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Sep 02 06:30:16 A -04:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_09_01_2020.zip'
+[Sep 02 06:30:16 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Downloading for Mark_to_Market_Detail_Dump_09_01_2020.zip...
+[Sep 02 06:30:20 A -04:00] INFO  EDFDump DownloadSecureFtpFileM2M(0) - The most recent file found is...Mark_to_Market_Detail_Dump_06_07_2019.zip
+[Sep 02 06:30:20 A -04:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_06_07_2019.zip'
+[Sep 02 06:30:20 A -04:00] INFO  EDFDump DownloadSecureFtpFileM2M(0) - This file was last uploaded on 6/10/2019 5:19:13 AM
+[Sep 02 06:30:20 A -04:00] INFO  EDFDump DownloadSecureFtpFileM2M(0) - Success
+[Sep 02 06:30:20 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Sep 02 06:30:20 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Mark_to_Market_Detail_Dump_06_07_2019.zip transferred to the PRD-Sched server. Location \\prd-sched-a01\D$\Innowatts\TradeFiles
+[Sep 02 06:30:20 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Unzipping Mark_to_Market_Detail_Dump_06_07_2019.zip...
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Scrubbing file (removing commas/quotes)...
+[Sep 02 06:30:21 A -04:00] INFO  Util CsvToOtherDelimiter(0) - Removed 198 rows for inactive REPs: SGE Energy Sourcing, LLC, AP Holdings, LLC, Nordic Energy Services, LLC
+[Sep 02 06:30:21 A -04:00] INFO  Util CsvToOtherDelimiter(0) - Found  rows of fees
+[Sep 02 06:30:21 A -04:00] INFO  Util CsvToOtherDelimiter(0) - Removed 1 rows with zero quantities
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump TransferFileToDatabaseServer(0) - m2m.csv transferred to the DB server
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump CompressAndMoveToNDrive(0) - Moving m2m-2020.09.02.zip to NDrive...
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump CompressAndMoveToNDrive(0) - Done
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Importing Encompass data into the database...
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump UploadToHistoricalDatabase(0) - Importing complete EDF supplier data into the Glacier historical database...
+[Sep 02 06:30:21 A -04:00] INFO  EDFDump UploadToHistoricalDatabase(0) - Done
+[Sep 02 06:30:21 A -04:00] INFO  EDFDumpData GetEscoSupplierMapping(0) - Loaded 21 esco supplier mappings
+[Sep 02 06:30:21 A -04:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 41
+[Sep 02 06:30:21 A -04:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 46
+[Sep 02 06:30:21 A -04:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 66
+[Sep 02 06:30:22 A -04:00] INFO  EDFDump RunDailyComplianceUpdate(0) - Running sp_clrRepDailyComplianceUpdate...
+[Sep 02 06:30:22 A -04:00] INFO  EDFDump RunDailyComplianceUpdate(0) - Done
+[Sep 02 06:30:22 A -04:00] INFO  EDFDumpData AddEdfHedges(0) - Deleted 0 rows from edfHedgeVolumes table for date: 9/2/2020 3:59:59 AM
+[Sep 02 06:30:22 A -04:00] INFO  EDFDumpData AddEdfHedges(0) - Added 0 rows to edfHedgeVolumes table for date: 9/2/2020 3:59:59 AM
+[Sep 02 06:30:22 A -04:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Sep 02 06:30:22 A -04:00] INFO  EDFDump Finish  (0) - ~~ Finished EDFDump ~
+[Sep 02 06:30:22 A -04:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,93 @@
+File: \\prd-app-a01\d$\CE\Repcalcs\FTPFiles\Receivables\2007300002_VantageUnbilled.csv
+
+Client: GB POWER Unbilled File
+
+Computed IQR: 2282.839999999994
+Marketer Account Number    1801180002         
+Usage Amount               4971               
+Unbilled Amount            22457.4            
+Last Invoice Date          09/14/2018         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 1134, dtype: object
+
+Marketer Account Number    1709270002         
+Usage Amount               4320               
+Unbilled Amount            21217.9            
+Last Invoice Date          10/10/2017         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 1555, dtype: object
+
+Marketer Account Number    1802070002         
+Usage Amount               17192              
+Unbilled Amount            22548.8            
+Last Invoice Date          09/14/2018         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 2443, dtype: object
+
+Marketer Account Number    1908160011         
+Usage Amount               12000              
+Unbilled Amount            10927.1            
+Last Invoice Date          11/18/2019         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 2563, dtype: object
+
+Marketer Account Number    1801180003         
+Usage Amount               2435               
+Unbilled Amount            11000.6            
+Last Invoice Date          09/14/2018         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 3099, dtype: object
+
+Marketer Account Number    1710020004         
+Usage Amount               11194              
+Unbilled Amount            12933.6            
+Last Invoice Date          01/17/2019         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 3540, dtype: object
+
+Marketer Account Number    1906190037         
+Usage Amount               5568               
+Unbilled Amount            49869              
+Last Invoice Date          07/12/2019         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 4398, dtype: object
+
+Marketer Account Number    1710020002         
+Usage Amount               19500              
+Unbilled Amount            26583.3            
+Last Invoice Date          12/14/2017         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 14736, dtype: object
+
+Marketer Account Number    1710020003         
+Usage Amount               79350              
+Unbilled Amount            108174             
+Last Invoice Date          12/14/2017         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 14737, dtype: object
+
+Marketer Account Number    1712050001         
+Usage Amount               106650             
+Unbilled Amount            35062.9            
+Last Invoice Date          12/12/2019         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 15658, dtype: object
+
+Marketer Account Number    1901020004         
+Usage Amount               77400              
+Unbilled Amount            29033.2            
+Last Invoice Date          12/04/2019         
+RepID                      41                 
+ProcessThruDate            2020-07-30 03:59:59
+Name: 15693, dtype: object
+

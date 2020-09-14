@@ -1,0 +1,40 @@
+ProcessThruDate: 2020-07-30 03:59:59
+
+Running for APG Billed
+Success!
+
+
+
+Running for APG UnBilled
+Success!
+
+
+
+Running for Volt Billed
+Success!
+
+
+
+Running for Volt UnBilled
+Success!
+
+
+
+Running for Discount Power Billed
+Success!
+
+
+
+Running for Discount Power UnBilled
+Success!
+
+
+
+Running for GB Power Billed
+Success!
+
+
+
+Running for GB Power UnBilled
+Success!
+

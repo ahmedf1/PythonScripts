@@ -1,0 +1,36 @@
+Came up with two solutions to automate log checking
+
+
+1. Machine learning based algorithm
+	- reads the log file and based on its learned data makes a guess as to whether the file is a success or a failure and needs to be reviewed
+	- idea is to cut out time of reading logs that are success
+	- currently only way to determine this is through manually going thru the file
+	- currently this approach is not always accurate due to the lack of an ample data set
+	- current set contains only < 30 logs
+	- need a lot more to be as accurate as possible
+	- real issue is lacking in failure examples
+							 
+							 
+2. Text Parsing of the Log Files			
+	- maybe parse the log into its separate sections --> EDF Prices, M2M, Positions, etc
+	- for each section analyze the amount of errors and then report the total to the google sheet
+	- ties into making a gui for log reports
+	
+
+
+---Finished all this
+
+-now the thing to consider is that the gui will only open on weekdays
+-so when the holiday is during weekday I wont be there to see it and will have to open the txt file
+to see if it was success or failure
+-temp solution to this is set the task scheduler to open the process in parallel when there is 
+already an instance running
+
+ex) if holiday is on a tuesday, coming in on wednesday should show two instances of the gui,
+	one for tuesday and one for wednesday
+this is not the most efficient solution 
+
+the most efficient solution would be to have a check to see whether today is a holiday
+if it is then dont open the gui
+
+then find the last non holiday business day and print all the status reports from that day to the ptd

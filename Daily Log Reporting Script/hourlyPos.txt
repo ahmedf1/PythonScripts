@@ -1,0 +1,4 @@
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump RunPositions(0) - *****************************
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump RunPositions(0) - * Encompass 5 Day Hourly Positions *
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump RunPositions(0) - *****************************
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump RunPositions(0) - Skipping 5 day positions since its nowhere near the end of the month

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "edfdump-log-automation",
+  "private_key_id": "4e7414f8184065cc145c3f990417b5a426c6e167",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCV1J1xJyCG9K0x\neXGAi1wlPstndSr3Q48LF/UTTAj/jLu0MdL8pSVj1qGzPIc/s5vIquAPSuzZuUpS\n3RXAeVp94oBcdMFd/qVTbY7NVvL3tf6/upkWkAoHW43V5N2PdYMmWCzmBPoas7W6\nlYqHCLyRG3C3w3xC58QkKmOftUYd5YmUhYrBS0kCBtCxiUezCej4KNfsSnGL365i\n/Q+i14AEIcw+TZfZe42Zr3I0Lxu+nI/NjttbGxKYVMKwjcpHuDgX3crVp4dxj2G+\nT4EJh8mXKFS1xz1q4onrb7XvR8G5f3Fcu3Zhy5Z6ZR7u/KguHyj576wDd69cmRth\n9uXAN4g1AgMBAAECggEAC1pWEwYBycgOEYLKuLtBNanu6VLFo9ZmJyiJujcXiB7m\noCOVrEK/37NFLbAcmBU+F3Pp0K7UMzZ+LQ4x1j47vvB5L8hBrfjGwoNkKnyiohC+\nZ1JhGYZmLs2J+exCui/kyp8sHm0VHbiCliCQ+Q9j6Q4uZHY3Ba4gZ2nLglqkH/gF\nXjnl+Lkp3J9gyHMETWtC4IJJbNSnLuk+qgtqX6FBom64zXY0yKnydx0LQwMKuOlS\nKCtUvaW5pK48O3ilKiIbZBrBmuLHvsZDjGwrrrOWFGCWsjSMng7XjnL7pktxq1dl\nhj42FFOE8Rv1iiHiDEtjVhbCgFlq8U7xn0vjkoO2gQKBgQDFjJjh2KKE/JNzTVSH\nO5Z9vcRV9qKa0iw4bxXVl6eIkv8QnHatw9uVqX0ToKUsFJ+Ip/jSMw9gnZksxis2\nYd6xoTowECoaouaS8iuD4pc9puIZ3rMr8Ew5FEARL8GabSiZpX9ykVoWg5yTyejq\nFHQw/21cy/h0LFoPWv5y4hjm9QKBgQDCKY6irF7YDUHNWsysB4lDAxGOCuQg4UnM\n7HeNMfcVClbZSE9YU733HD0133ffSjyFBVLVWylZPK7W6Y7WQc4SH/R2TKp5luNR\n9mtZV77r8q4WMnWWqs7NdjbY4QLRPiRLQR/m/GmQbaadTb9Mm30FL4ryyVnkbneW\nEmOFXNrUQQKBgF6+9/QZupidqvp59DiH072q7idsisBGXP8UCBzRB4DxP3PwFttw\nPDijeWGYgp+JpJoeNbBa3N0xuO1IfiEu/2eiNA4pMohj6MJBc61lV7Qx/e76aGSC\nc4xMsg2MIga2o+pM/bstC1AQ/1/CTvs1pCR73S/Mg/Tz8J28vpzK47ahAoGAL9sA\nTfYANm4mDtBXa/s7iKnD9OeYTMZaY0jROprbFHOE7m8VJ2cUhkiOia23pPBuNDcY\nsH+UlGsRiOTuEL8NZIg9v76rseZPxw7ebJnk89DPuabcNrOI3zlI0XG8OQiA949o\npo0GE9QC4ficsuwMB3AtZiPcpSHZFcMYhnFZekECgYEAgCUBAFWubKwGoxUPdRaw\npJgILPiPMrm4RG1FPZxG7/2+rSocB35dHxlVDIFM9bE7oXrNUN2dgut89k2aU1un\nxlnZvToNFOn8NEoWz0QyAoz0qwnk/fiK4sXrKwepzmft0/HZlXu0Dd946UI8CKrM\nAuA4PLCa2IAqUu2cG9BFV6U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "farhad-edfdump-auto@edfdump-log-automation.iam.gserviceaccount.com",
+  "client_id": "104166399444191844825",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/farhad-edfdump-auto%40edfdump-log-automation.iam.gserviceaccount.com"
+}

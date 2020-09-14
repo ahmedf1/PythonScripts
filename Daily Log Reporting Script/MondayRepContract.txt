@@ -1,0 +1,109 @@
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - 
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - 
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - arg0: 1
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - arg1: 2020-08-31 03:59:59
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - arg2: Edf
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Scheduled Run of RepImport with extra arguments ImportContracts: True
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - 
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - **********************
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - ** Starting RepCalcs **
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - ** ImportContracts: True **
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - ** RunPVCalc: True **
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - ** RunAnalysis: False **
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - ** ImportSchedLoad: False **
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - ** ImportReceivables: False **
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - **********************
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - ProcessThruDate	2020-08-31 03:59:59
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Aug 31 06:30:26 A -04:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Aug 31 06:30:26 A -04:00] INFO  RepData(0) - Loaded 3 Active REP Clients
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Aug 31 06:30:26 A -04:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs-Contracts.log.2020-08-14.log
+[Aug 31 06:30:26 A -04:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs.log.2020-08-14.log
+[Aug 31 06:30:26 A -04:00] INFO  DirCleaner(0) - Deleted 2 files in .
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Commit True
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - FixErrors False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Xpress False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - runAlways False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - uploadResults False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - contractHistory False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Email Enabled False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Report Missing ContractFile False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Aug 31 06:30:26 A -04:00] INFO  RepCalcs(0) - Report Missing Receivables False
+[Aug 31 06:30:26 A -04:00] INFO  RepData(0) - 
+[Aug 31 06:30:26 A -04:00] INFO  RepData(0) - Creating a NEW Job, with JobId 5384
+[Aug 31 06:30:26 A -04:00] INFO  RepData(0) - 
+[Aug 31 06:30:26 A -04:00] INFO  RepData(0) - Querying Power Prices...
+[Aug 31 06:30:26 A -04:00] INFO  RepData(0) - Clearing Ptd= 8/31/2020 12:00:00 AM
+[Aug 31 06:30:28 A -04:00] INFO  RepData(0) - Querying Gas Prices...
+[Aug 31 06:30:31 A -04:00] INFO  RepData(0) - Done Querying Prices
+[Aug 31 06:30:31 A -04:00] INFO  RepCalcs(0) - Skipping contracts download since yesterday was not a Biz Day
+[Aug 31 06:30:31 A -04:00] INFO  RepCalcs(0) - ********************* Contract Files processing complete. Processed 0 files *********************
+[Aug 31 06:30:31 A -04:00] INFO  RepCalcs(0) - Running analysis on processed client data
+[Aug 31 06:30:31 A -04:00] INFO  RepCalcs(0) - Skipping updating Contract History
+[Aug 31 06:30:31 A -04:00] INFO  RepCalcs(0) - Calculating 18 month load for Monthly contracts (Special case for Macquarie)
+[Aug 31 06:30:31 A -04:00] INFO  RepCalcs(0) - Done with 18 month load calculation
+[Aug 31 06:30:31 A -04:00] INFO  RepData(0) - Querying Hedge based haircut assumptions for NPV
+[Aug 31 06:30:31 A -04:00] INFO  RepData(0) - Done
+[Aug 31 06:30:31 A -04:00] INFO  RepData(0) - Querying Average Weighted Hedge Prices for Clients
+[Aug 31 06:30:31 A -04:00] INFO  RepData(0) - Done
+[Aug 31 06:30:31 A -04:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Aug 31 06:30:31 A -04:00] INFO  RepCalcs(0) - RUNNING Hedge based Haircuts on PV to get Forward Values 
+[Aug 31 06:30:32 A -04:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Aug 31 06:30:32 A -04:00] INFO  RepCalcs(0) - Inserted 2 values for RepId 41 to Esco Assets for hedge haircutted Forward Value (PV).
+[Aug 31 06:30:34 A -04:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Aug 31 06:30:34 A -04:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 46 to Esco Assets for hedge haircutted Forward Value (PV).
+[Aug 31 06:30:35 A -04:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Aug 31 06:30:35 A -04:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 66 to Esco Assets for hedge haircutted Forward Value (PV).
+[Aug 31 06:30:35 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:35 A -04:00] INFO  RepCalcs(0) - UPDATING RCE Count in Esco Assets
+[Aug 31 06:30:37 A -04:00] INFO  RepData(0) - ESCO assets rows updated= 2
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - UPDATING PV values in Daily Compliance table
+[Aug 31 06:30:37 A -04:00] INFO  RepData(0) - Compliance PV rows updated= 1
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Inserting data into Contract Metrics table
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:37 A -04:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - RUNNING Esco Out of Money Position calculations
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 66
+[Aug 31 06:30:37 A -04:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 66
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 46
+[Aug 31 06:30:37 A -04:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 46
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 41
+[Aug 31 06:30:37 A -04:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 41
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:37 A -04:00] INFO  RepCalcs(0) - RUNNING calculation of Adjusted Forward Value of Customer Contracts code aka AFVCC.
+[Aug 31 06:30:37 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(200) - ********************************************************************************
+[Aug 31 06:30:37 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(201) - Starting 'CalculateAfvcc'
+[Aug 31 06:30:37 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(202) - RunDate = 8/31/2020 3:59:59 AM
+[Aug 31 06:30:37 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(203) - Run User = repcalcs
+[Aug 31 06:30:38 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(55) - Invalidating Afvcc values in OrganizationCompliance table for rundate: 8/31/2020 12:00:00 AM
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(66) - Invalidating values in EscoAdjustedForwardValues table for rundate: 8/31/2020 12:00:00 AM
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(76) - Done.
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 41
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 46
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 66
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(144) - Done.
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(185) - Running calculations for Afvcc
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(188) - Done.
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(94) - Saving changes in Compliance Db
+[Aug 31 06:30:40 A -04:00] INFO  CalculateAfvcc.AfvccCalculator(96) - Done.
+[Aug 31 06:30:40 A -04:00] INFO  RepCalcs(0) - CalculateAfvcc is complete.
+[Aug 31 06:30:40 A -04:00] INFO  RepCalcs(0) - Running sp_clrRepConcRisk...
+[Aug 31 06:30:41 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:41 A -04:00] INFO  RepCalcs(0) - Running RCE calculation update in daily compliance table...
+[Aug 31 06:30:41 A -04:00] INFO  RepData(0) - Daily Compliance rows updated= 0
+[Aug 31 06:30:41 A -04:00] INFO  RepCalcs(0) - Done
+[Aug 31 06:30:41 A -04:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Aug 31 06:30:41 A -04:00] INFO  RepCalcs(0) - ~~ Finished RepCalcs ~

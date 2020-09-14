@@ -1,0 +1,17 @@
+[Sep 02 06:30:09 A -04:00] INFO  EDFDump RunPrices(0) - ********************
+[Sep 02 06:30:09 A -04:00] INFO  EDFDump RunPrices(0) - * Encompass Prices *
+[Sep 02 06:30:09 A -04:00] INFO  EDFDump RunPrices(0) - ********************
+[Sep 02 06:30:09 A -04:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2020-09-01 (Confidential).csv...
+[Sep 02 06:30:13 A -04:00] INFO  EDFDump DownloadSecureFtpFile(0) - File to Download...EDFTNA_Curves_2020-09-01 (Confidential).csv
+[Sep 02 06:30:13 A -04:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Sep 02 06:30:13 A -04:00] INFO  EDFDump DownloadPrices(0) - Done
+[Sep 02 06:30:13 A -04:00] INFO  EDFDump DownloadPrices(0) - Scrubbing file (removing commas/quotes)...
+[Sep 02 06:30:14 A -04:00] INFO  EDFDump DownloadPrices(0) - Done
+[Sep 02 06:30:14 A -04:00] INFO  EDFDump TransferFileToDatabaseServer(0) - prices.csv transferred to the DB server
+[Sep 02 06:30:14 A -04:00] INFO  EDFDump DownloadPrices(0) - Importing Encompass Prices into the database...
+[Sep 02 06:30:14 A -04:00] INFO  EDFDumpData BulkCopyRepEncompassPrices(0) - Performing IntraDayDelete for clr_RepEncompassPrices
+[Sep 02 06:30:16 A -04:00] INFO  EDFDumpData BulkCopyToDB(0) - Running BulkCopy Insert
+[Sep 02 06:30:16 A -04:00] INFO  EDFDumpData BulkCopyToDB(0) - Finished BulkCopy
+[Sep 02 06:30:16 A -04:00] INFO  EDFDumpData BulkCopyToDB(0) - Released DataTable Memory
+[Sep 02 06:30:16 A -04:00] INFO  EDFDumpData BulkCopyRepEncompassPrices(0) - Finished BulkCopy for Encompass Prices
+[Sep 02 06:30:16 A -04:00] INFO  EDFDump DownloadPrices(0) - Done

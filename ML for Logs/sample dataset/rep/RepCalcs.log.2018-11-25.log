@@ -1,0 +1,141 @@
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - 
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - 
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - arg1: 2018-11-25 03:59:59
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - arg2: Edf
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - 
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ** Starting RepCalcs **
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ** ImportContracts: True **
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ** RunPVCalc: True **
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ** RunAnalysis: True **
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: False **
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ** ImportReceivables: False **
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-25 03:59:59
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 25 05:38:58 A -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 25 05:38:58 A -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 25 05:38:58 A -05:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs-Contracts.log.2018-11-08.log
+[Nov 25 05:38:58 A -05:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs.log.2018-11-08.log
+[Nov 25 05:38:58 A -05:00] INFO  DirCleaner(0) - Deleted 2 files in .
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 25 05:38:58 A -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 25 05:38:58 A -05:00] INFO  RepData(0) - 
+[Nov 25 05:38:58 A -05:00] INFO  RepData(0) - Creating a NEW Job, with JobId 4739
+[Nov 25 05:38:58 A -05:00] INFO  RepData(0) - 
+[Nov 25 05:38:58 A -05:00] INFO  RepData(0) - Querying Power Prices...
+[Nov 25 05:38:58 A -05:00] INFO  RepData(0) - Clearing Ptd= 11/25/2018 12:00:00 AM
+[Nov 25 05:39:16 A -05:00] INFO  RepData(0) - Querying Gas Prices...
+[Nov 25 05:39:18 A -05:00] INFO  RepData(0) - Done Querying Prices
+[Nov 25 05:39:18 A -05:00] INFO  RepCalcs(0) - Skipping contracts download since yesterday was not a Biz Day
+[Nov 25 05:39:18 A -05:00] INFO  RepCalcs(0) - ********************* Contract Files processing complete. Processed 0 files *********************
+[Nov 25 05:39:18 A -05:00] INFO  RepCalcs(0) - Running analysis on processed client data
+[Nov 25 05:39:18 A -05:00] INFO  RepCalcs(0) - Skipping updating Contract History
+[Nov 25 05:39:18 A -05:00] INFO  RepCalcs(0) - Calculating 18 month load for Monthly contracts (Special case for Macquarie)
+[Nov 25 05:39:20 A -05:00] INFO  RepCalcs(0) - Done with 18 month load calculation
+[Nov 25 05:39:20 A -05:00] INFO  RepCalcs(0) - Running sp_clrRepAnalysis...
+[Nov 25 05:39:21 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:39:21 A -05:00] INFO  RepData(0) - Querying Hedge based haircut assumptions for NPV
+[Nov 25 05:39:21 A -05:00] INFO  RepData(0) - Done
+[Nov 25 05:39:21 A -05:00] INFO  RepData(0) - Querying Average Weighted Hedge Prices for Clients
+[Nov 25 05:39:21 A -05:00] INFO  RepData(0) - Done
+[Nov 25 05:39:21 A -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 25 05:39:21 A -05:00] INFO  RepCalcs(0) - RUNNING Hedge based Haircuts on PV to get Forward Values 
+[Nov 25 05:39:45 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 25 05:39:45 A -05:00] INFO  RepCalcs(0) - Inserted 2 values for RepId 6 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 25 05:39:47 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 25 05:39:47 A -05:00] INFO  RepCalcs(0) - Inserted 4 values for RepId 21 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 25 05:39:48 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 25 05:39:48 A -05:00] INFO  RepCalcs(0) - Inserted 1 values for RepId 41 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 25 05:39:49 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 25 05:39:49 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 46 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 25 05:39:51 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 25 05:39:51 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 66 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 25 05:39:52 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 25 05:39:52 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 76 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 25 05:39:54 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 25 05:39:54 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 85 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 25 05:39:54 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:39:54 A -05:00] INFO  RepCalcs(0) - UPDATING RCE Count in Esco Assets
+[Nov 25 05:39:55 A -05:00] INFO  RepData(0) - ESCO assets rows updated= 7
+[Nov 25 05:39:55 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:39:55 A -05:00] INFO  RepCalcs(0) - UPDATING PV values in Daily Compliance table
+[Nov 25 05:39:55 A -05:00] INFO  RepData(0) - Compliance PV rows updated= 3
+[Nov 25 05:39:55 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:39:55 A -05:00] INFO  RepCalcs(0) - Inserting data into Contract Metrics table
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:00 A -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - RUNNING Esco Out of Money Position calculations
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 85
+[Nov 25 05:40:00 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 85
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 76
+[Nov 25 05:40:00 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 76
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 66
+[Nov 25 05:40:00 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 66
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 46
+[Nov 25 05:40:00 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 46
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 41
+[Nov 25 05:40:00 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 41
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:00 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 21
+[Nov 25 05:40:00 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 21
+[Nov 25 05:40:02 A -05:00] INFO  RepCalcs(0) - Inserting Esco In Money Positions data rows for repId 21 and Commodity 0
+[Nov 25 05:40:02 A -05:00] INFO  RepCalcs(0) - Inserting Esco Out of Money Positions data rows for repId 21 and Commodity 0
+[Nov 25 05:40:02 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:02 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 6
+[Nov 25 05:40:02 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 6
+[Nov 25 05:40:03 A -05:00] INFO  RepCalcs(0) - Inserting Esco In Money Positions data rows for repId 6 and Commodity 0
+[Nov 25 05:40:03 A -05:00] INFO  RepCalcs(0) - Inserting Esco Out of Money Positions data rows for repId 6 and Commodity 0
+[Nov 25 05:40:03 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:03 A -05:00] INFO  RepCalcs(0) - RUNNING calculation of Adjusted Forward Value of Customer Contracts code aka AFVCC.
+[Nov 25 05:40:03 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(200) - ********************************************************************************
+[Nov 25 05:40:03 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(201) - Starting 'CalculateAfvcc'
+[Nov 25 05:40:03 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(202) - RunDate = 11/25/2018 3:59:59 AM
+[Nov 25 05:40:03 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(203) - Run User = repcalcs
+[Nov 25 05:40:03 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(55) - Invalidating Afvcc values in OrganizationCompliance table for rundate: 11/25/2018 12:00:00 AM
+[Nov 25 05:40:06 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(66) - Invalidating values in EscoAdjustedForwardValues table for rundate: 11/25/2018 12:00:00 AM
+[Nov 25 05:40:06 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(76) - Done.
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 6
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 21
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 41
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 46
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 66
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 76
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 85
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(144) - Done.
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(185) - Running calculations for Afvcc
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(188) - Done.
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(94) - Saving changes in Compliance Db
+[Nov 25 05:40:07 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(96) - Done.
+[Nov 25 05:40:07 A -05:00] INFO  RepCalcs(0) - CalculateAfvcc is complete.
+[Nov 25 05:40:07 A -05:00] INFO  RepCalcs(0) - Running sp_clrRepConcRisk...
+[Nov 25 05:40:18 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:18 A -05:00] INFO  RepCalcs(0) - Running RCE calculation update in daily compliance table...
+[Nov 25 05:40:18 A -05:00] INFO  RepData(0) - Daily Compliance rows updated= 0
+[Nov 25 05:40:18 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 25 05:40:18 A -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 25 05:40:18 A -05:00] INFO  RepCalcs(0) - ~~ Finished RepCalcs ~
+[Nov 25 05:40:18 A -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 25 05:40:18 A -05:00] INFO  RepCalcs(0) - Sent logs in email to teamIt

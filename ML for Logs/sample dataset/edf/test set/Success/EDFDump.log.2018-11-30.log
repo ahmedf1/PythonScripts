@@ -1,0 +1,121 @@
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - Running as User: repcalcsUat
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - arg0: 1
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - arg1: 2018-11-30 03:59:59
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - arg2: edf
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - arg3: True
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump LogParameters(0) - 
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump LogParameters(0) - ** Starting EDFPrices **
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump LogParameters(0) - ProcessThruDate 2018-11-30 03:59:59
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump LogParameters(0) - Current directory D:\CE\EDFDump
+[Nov 30 01:15:00 A -05:00] INFO  EDFDumpData GetConfiguration(0) - Loaded 1 generic config values from db
+[Nov 30 01:15:00 A -05:00] INFO  DirCleaner run     (0) - Deleting File .\EDFDump.log.2018-11-23.log
+[Nov 30 01:15:00 A -05:00] INFO  DirCleaner run     (0) - Deleted 1 files in .
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Init    (0) - Commit: True
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Init    (0) - commitGlacier: True
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump Main    (0) - EdfPositionRun :False EdfShapedPositionsRun:False EdfPricesRun:True EdfM2MRun:False ShellM2MRun:False TownsquareM2MRun:False EscowareM2MRun:False
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump RunPrices(0) - * Encompass Prices *
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 30 01:15:00 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-29 (Confidential).csv...
+[Nov 30 01:15:02 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 30 01:15:02 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 30 01:15:02 A -05:00] INFO  EDFDump DownloadPrices(0) - Scrubbing file (removing commas/quotes)...
+[Nov 30 01:15:03 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 30 01:15:03 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - prices.csv transferred to the DB server
+[Nov 30 01:15:03 A -05:00] INFO  EDFDump DownloadPrices(0) - Importing Encompass Prices into the database...
+[Nov 30 01:15:33 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 30 01:15:33 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 30 01:15:33 A -05:00] INFO  EDFDump Finish  (0) - ~~ Finished EDFPrices ~
+[Nov 30 01:15:33 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Main    (0) - Running as User: repcalcsUat
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg0: 1
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg1: 2018-11-30 03:59:59
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg2: Edf
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - 
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - ** Starting EDFDump **
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - ProcessThruDate 2018-11-30 03:59:59
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - Current directory D:\CE\EdfDump
+[Nov 30 05:30:01 A -05:00] INFO  EDFDumpData GetConfiguration(0) - Loaded 1 generic config values from db
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Init    (0) - Commit: True
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Init    (0) - commitGlacier: True
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump Main    (0) - EdfPositionRun :True EdfShapedPositionsRun:True EdfPricesRun:True EdfM2MRun:True ShellM2MRun:False TownsquareM2MRun:False EscowareM2MRun:False
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - *****************************
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - * Encompass 5 Day Hourly Positions *
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - *****************************
+[Nov 30 05:30:01 A -05:00] INFO  EDFDumpData LoadRepClientInfoRepId(0) - Loaded 8 Active REP Clients
+[Nov 30 05:30:01 A -05:00] INFO  EDFDump DownloadPositions(0) - Looking for 5 Day Exposure Detail by Hour 11_29_2018.csv...
+[Nov 30 05:30:25 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 30 05:30:25 A -05:00] INFO  EDFDump DownloadPositions(0) - Done
+[Nov 30 05:30:25 A -05:00] INFO  EDFDump DownloadPositions(0) - Scrubbing file (removing commas/quotes)...
+[Nov 30 05:30:32 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 80,436 rows for inactive REPs: SGE Energy Sourcing LLC, AP Holdings LLC, AP&G Holdings LLC, Nordic Energy Services LLC, XOOM Energy LLC
+[Nov 30 05:30:32 A -05:00] INFO  EDFDump DownloadPositions(0) - Done
+[Nov 30 05:30:32 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - positions.csv transferred to the DB server
+[Nov 30 05:30:32 A -05:00] INFO  EDFDump DownloadPositions(0) - Importing Encompass Positions into the database...
+[Nov 30 05:31:18 A -05:00] INFO  EDFDump DownloadPositions(0) - Done
+[Nov 30 05:31:18 A -05:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Nov 30 05:31:18 A -05:00] INFO  EDFDump RunShapedPositions(0) - * Encompass Shaped Positions *
+[Nov 30 05:31:18 A -05:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Nov 30 05:31:18 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 11_29_2018.csv...
+[Nov 30 05:31:24 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 30 05:31:24 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Nov 30 05:31:24 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Scrubbing file (removing commas/quotes)...
+[Nov 30 05:31:26 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 24,531 rows for inactive REPs: SGE Energy Sourcing LLC, AP Holdings LLC, Nordic Energy Services LLC
+[Nov 30 05:31:26 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Nov 30 05:31:26 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - shapedPositions.csv transferred to the DB server
+[Nov 30 05:31:26 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Importing Encompass Shaped Positions...
+[Nov 30 05:31:36 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done. Rows affected : 0
+[Nov 30 05:31:36 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 30 05:31:36 A -05:00] INFO  EDFDump RunPrices(0) - * Encompass Prices *
+[Nov 30 05:31:36 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 30 05:31:36 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-29 (Confidential).csv...
+[Nov 30 05:31:38 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 30 05:31:38 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 30 05:31:38 A -05:00] INFO  EDFDump DownloadPrices(0) - Scrubbing file (removing commas/quotes)...
+[Nov 30 05:31:38 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 30 05:31:38 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - prices.csv transferred to the DB server
+[Nov 30 05:31:38 A -05:00] INFO  EDFDump DownloadPrices(0) - Importing Encompass Prices into the database...
+[Nov 30 05:31:39 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 30 05:31:39 A -05:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Nov 30 05:31:39 A -05:00] INFO  EDFDump RunM2MEdf(0) - * Encompass M2M *
+[Nov 30 05:31:39 A -05:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Nov 30 05:31:39 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_11_29_2018.zip'
+[Nov 30 05:31:39 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Downloading for Mark_to_Market_Detail_Dump_11_29_2018.zip...
+[Nov 30 05:31:47 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 30 05:31:47 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Nov 30 05:31:47 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Mark_to_Market_Detail_Dump_11_29_2018.zip transferred to the PRD-Sched server. Location \\prd-sched-a01\D$\Innowatts_Project\Lex\LexTradeFiles
+[Nov 30 05:31:47 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Unzipping Mark_to_Market_Detail_Dump_11_29_2018.zip...
+[Nov 30 05:31:52 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Nov 30 05:31:52 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Scrubbing file (removing commas/quotes)...
+[Nov 30 05:33:52 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 802,167 rows for inactive REPs: SGE Energy Sourcing, LLC, AP Holdings, LLC, Nordic Energy Services, LLC, XOOM Energy, LLC
+[Nov 30 05:33:52 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Found 212,854 rows of fees
+[Nov 30 05:33:52 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 175,213 rows with zero quantities
+[Nov 30 05:33:52 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Nov 30 05:33:53 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - m2m.csv transferred to the DB server
+[Nov 30 05:33:53 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Importing Encompass data into the database...
+[Nov 30 05:34:16 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Nov 30 05:34:16 A -05:00] INFO  EDFDump UploadToHistoricalDatabase(0) - Importing complete EDF supplier data into the Glacier historical database...
+[Nov 30 05:39:39 A -05:00] INFO  EDFDump UploadToHistoricalDatabase(0) - Done
+[Nov 30 05:39:43 A -05:00] INFO  EDFDumpData GetEscoSupplierMapping(0) - Loaded 25 esco supplier mappings
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 6
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 21
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 41
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 46
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 66
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 76
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 83
+[Nov 30 05:39:44 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 85
+[Nov 30 05:39:44 A -05:00] INFO  EDFDump RunDailyComplianceUpdate(0) - Running sp_clrRepDailyComplianceUpdate...
+[Nov 30 05:39:45 A -05:00] INFO  EDFDump RunDailyComplianceUpdate(0) - Done
+[Nov 30 05:39:45 A -05:00] INFO  EDFDumpData AddEdfHedges(0) - Deleted 0 rows from edfHedgeVolumes table for date: 11/30/2018 3:59:59 AM
+[Nov 30 05:39:46 A -05:00] INFO  EDFDumpData AddEdfHedges(0) - Added 7765 rows to edfHedgeVolumes table for date: 11/30/2018 3:59:59 AM
+[Nov 30 05:39:46 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 30 05:39:46 A -05:00] INFO  EDFDump Finish  (0) - ~~ Finished EDFDump ~
+[Nov 30 05:39:46 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~

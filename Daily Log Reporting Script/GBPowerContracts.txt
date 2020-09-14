@@ -1,0 +1,51 @@
+[Sep 02 06:30:29 A -04:00] INFO  RepCalcs(0) - ****************************************************************
+[Sep 02 06:30:29 A -04:00] INFO  RepCalcs(0) - Download Contracts for GB Power ( mailbox repclient81, repId 41 )
+[Sep 02 06:30:29 A -04:00] INFO  RepCalcs(0) - ****************************************************************
+[Sep 02 06:30:29 A -04:00] INFO  RepCalcs(0) - ** Found a file to download GBPower_Contract_090120.csv **
+[Sep 02 06:30:30 A -04:00] INFO  RepCalcs(0) - Processing GB PowerContracts-090120-5386.csv
+[Sep 02 06:30:30 A -04:00] INFO  RepCalcs(0) - Moving GB PowerContracts-2020.09.02.zip to NDrive...
+[Sep 02 06:30:30 A -04:00] INFO  RepCalcs(0) - Done
+[Sep 02 06:30:30 A -04:00] INFO  RepCalcs(0) - Scrubbing...
+[Sep 02 06:30:30 A -04:00] INFO  RepCalcs(0) - Done
+[Sep 02 06:30:30 A -04:00] INFO  RepCalcs(0) - Loading...
+[Sep 02 06:30:30 A -04:00] INFO  RepData(0) - Querying pre calculated variable contract margins for repId 41
+[Sep 02 06:31:04 A -04:00] WARN  InputFile(0) - Syntax Errors: 241
+[Sep 02 06:31:04 A -04:00] WARN  InputFile(0) - Missing Usage: 204
+[Sep 02 06:31:04 A -04:00] WARN  InputFile(0) - Missing Margins: 954
+[Sep 02 06:31:04 A -04:00] WARN  InputFile(0) - Capped Margins (Power): 0
+[Sep 02 06:31:04 A -04:00] WARN  InputFile(0) - Capped Margins (Gas): 0
+[Sep 02 06:31:04 A -04:00] WARN  InputFile(0) - Expired Contracts: 1
+[Sep 02 06:31:04 A -04:00] INFO  InputFile(0) - There were 5,789 lines of data ( incl header ) and 241 lines with syntax errors and 0 warnings
+[Sep 02 06:31:04 A -04:00] INFO  RepCalcs(0) - Found 5,542 Valid Contracts and 241 Errors and 0 Warnings for GB Power and repclient81
+[Sep 02 06:31:04 A -04:00] ERROR RepCalcs(0) - XXX There were errors in the file, please see RepCalcs Contract log for details XXX
+[Sep 02 06:31:04 A -04:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Sep 02 06:31:04 A -04:00] INFO  RepData(0) - ReplacePortfolioOp moved 11104 contracts out of the way for RepId: 41
+[Sep 02 06:31:04 A -04:00] INFO  RepData(0) - Inserting Contracts...
+[Sep 02 06:31:30 A -04:00] INFO  RepData(0) - ** Inserted 5542 new Contracts **
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - Residential...
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - Inserting 103 months of Fixed Contract Volumes
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - Inserting 76 months of Var Contract Volumes
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - INSERTING DETAILED RESIDENTIAL CONTRACT VOLUMES
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - Inserting 197 rows of DETAILED Fixed Contract Volumes
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Sep 02 06:31:30 A -04:00] INFO  RepCalcs(0) - Inserting 171 rows of DETAILED  Variable Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Commercial...
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 77 months of Fixed Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 38 months of Var Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - INSERTING DETAILED COMMERCIAL CONTRACT VOLUMES
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 141 rows of DETAILED Fixed Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 38 rows of DETAILED  Variable Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Done
+[Sep 02 06:31:31 A -04:00] INFO  RepData(0) - linkContractsProducts returns 5542
+[Sep 02 06:31:31 A -04:00] INFO  RepData(0) - Looking for Orphan Power contracts
+[Sep 02 06:31:31 A -04:00] INFO  RepData(0) - linkContractsProducts2 returns 0
+[Sep 02 06:31:31 A -04:00] INFO  RepData(0) - Looking for Orphan Gas contracts
+[Sep 02 06:31:31 A -04:00] INFO  RepData(0) - linkContractsProducts3 returns 0
+[Sep 02 06:31:31 A -04:00] INFO  RepCalcs(0) - Skipping cleanup

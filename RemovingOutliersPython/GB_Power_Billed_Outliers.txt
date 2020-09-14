@@ -1,0 +1,41 @@
+File: \\prd-app-a01\d$\CE\Repcalcs\FTPFiles\Receivables\2007300001_VantageBilled.csv
+
+Client: GB Power Billed
+
+Computed IQR: 426.0774999999998
+TOTAL DUE AMOUNT      7923.0
+0_10 DAYS             0.0   
+11_30 DAYS            0.0   
+31_60 DAYS            0.0   
+61_90 DAYS            0.0   
+91_120 DAYS           0.0   
+121_150 DAYS          0.0   
+151_180 DAYS          0.0   
+MORE THAN 180 DAYS    0.0   
+Billed 0-30           7923.0
+Name: 473, dtype: float64
+
+TOTAL DUE AMOUNT      7068.5
+0_10 DAYS             0.0   
+11_30 DAYS            0.0   
+31_60 DAYS            0.0   
+61_90 DAYS            0.0   
+91_120 DAYS           0.0   
+121_150 DAYS          0.0   
+151_180 DAYS          0.0   
+MORE THAN 180 DAYS    0.0   
+Billed 0-30           7068.5
+Name: 6915, dtype: float64
+
+TOTAL DUE AMOUNT      30786.18
+0_10 DAYS             0.00    
+11_30 DAYS            415.28  
+31_60 DAYS            8545.00 
+61_90 DAYS            12870.93
+91_120 DAYS           0.00    
+121_150 DAYS          0.00    
+151_180 DAYS          0.00    
+MORE THAN 180 DAYS    0.00    
+Billed 0-30           9370.25 
+Name: 7104, dtype: float64
+

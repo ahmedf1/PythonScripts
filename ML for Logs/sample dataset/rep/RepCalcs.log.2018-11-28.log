@@ -1,0 +1,650 @@
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - arg1: 2018-11-28 03:59:59
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - arg2: Edf
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ** Starting RepCalcs **
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ** ImportContracts: True **
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ** RunPVCalc: True **
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ** RunAnalysis: True **
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: False **
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ** ImportReceivables: False **
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-28 03:59:59
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 28 05:39:18 A -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 28 05:39:18 A -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 28 05:39:18 A -05:00] INFO  DirCleaner(0) - Deleting File .\RepCalcs-Contracts.log.2018-11-12.log
+[Nov 28 05:39:18 A -05:00] INFO  DirCleaner(0) - Deleted 1 files in .
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 28 05:39:18 A -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 28 05:39:18 A -05:00] INFO  RepData(0) - 
+[Nov 28 05:39:18 A -05:00] INFO  RepData(0) - Creating a NEW Job, with JobId 4742
+[Nov 28 05:39:18 A -05:00] INFO  RepData(0) - 
+[Nov 28 05:39:18 A -05:00] INFO  RepData(0) - Querying Power Prices...
+[Nov 28 05:39:18 A -05:00] INFO  RepData(0) - Clearing Ptd= 11/28/2018 12:00:00 AM
+[Nov 28 05:39:36 A -05:00] INFO  RepData(0) - Querying Gas Prices...
+[Nov 28 05:39:38 A -05:00] INFO  RepData(0) - Done Querying Prices
+[Nov 28 05:39:38 A -05:00] INFO  RepCalcs(0) - Importing new Contracts since yesterday was a Biz Day
+[Nov 28 05:39:38 A -05:00] INFO  RepCalcs(0) - Deleting Contract Rows For Inactive Clients
+[Nov 28 05:39:38 A -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 28 05:39:38 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 85
+[Nov 28 05:39:38 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 05:39:38 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:38 A -05:00] INFO  RepCalcs(0) - Download Contracts for Volt ( mailbox repclient85, repId 85 )
+[Nov 28 05:39:38 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:38 A -05:00] WARN  RepCalcs(0) - No entries found in this directory
+[Nov 28 05:39:38 A -05:00] ERROR RepCalcs(0) - Missing Contract Data file for Volt
+[Nov 28 05:39:38 A -05:00] WARN  RepCalcs(0) - Missing Remote Contract File
+[Nov 28 05:39:38 A -05:00] WARN  RepCalcs(0) - XXX Since this REP has an Active Certificate, we are going to reload the most recent Contract File locally...
+[Nov 28 05:39:39 A -05:00] ERROR RepCalcs(0) - No Contract File to download and none found locally ( in fact no files in FTPFiles at all! )
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 05:39:39 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 76
+[Nov 28 05:39:39 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - Download Contracts for Atlantic ( mailbox repclient76, repId 76 )
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:39 A -05:00] ERROR RepCalcs(0) - Missing Contract Data file for Atlantic
+[Nov 28 05:39:39 A -05:00] WARN  RepCalcs(0) - Missing Remote Contract File
+[Nov 28 05:39:39 A -05:00] WARN  RepCalcs(0) - XXX Since this REP has an Active Certificate, we are going to reload the most recent Contract File locally...
+[Nov 28 05:39:39 A -05:00] ERROR RepCalcs(0) - No Contract File to download and none found locally ( in fact no files in FTPFiles at all! )
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 05:39:39 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 66
+[Nov 28 05:39:39 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - Download Contracts for Genie Energy ( mailbox repclient66, repId 66 )
+[Nov 28 05:39:39 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:40 A -05:00] WARN  RepCalcs(0) - No entries found in this directory
+[Nov 28 05:39:40 A -05:00] ERROR RepCalcs(0) - Missing Contract Data file for Genie Energy
+[Nov 28 05:39:40 A -05:00] WARN  RepCalcs(0) - Missing Remote Contract File
+[Nov 28 05:39:40 A -05:00] WARN  RepCalcs(0) - XXX Since this REP has an Active Certificate, we are going to reload the most recent Contract File locally...
+[Nov 28 05:39:40 A -05:00] ERROR RepCalcs(0) - No Contract File to download and none found locally ( in fact no files in FTPFiles at all! )
+[Nov 28 05:39:40 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 05:39:40 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 05:39:40 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 46
+[Nov 28 05:39:40 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 05:39:40 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:40 A -05:00] INFO  RepCalcs(0) - Download Contracts for Discount ( mailbox repclient46, repId 46 )
+[Nov 28 05:39:40 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:41 A -05:00] WARN  RepCalcs(0) - No entries found in this directory
+[Nov 28 05:39:41 A -05:00] ERROR RepCalcs(0) - Missing Contract Data file for Discount
+[Nov 28 05:39:41 A -05:00] WARN  RepCalcs(0) - Missing Remote Contract File
+[Nov 28 05:39:41 A -05:00] WARN  RepCalcs(0) - XXX Since this REP has an Active Certificate, we are going to reload the most recent Contract File locally...
+[Nov 28 05:39:41 A -05:00] ERROR RepCalcs(0) - No Contract File to download and none found locally ( in fact no files in FTPFiles at all! )
+[Nov 28 05:39:41 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 05:39:41 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 05:39:41 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 41
+[Nov 28 05:39:41 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 05:39:41 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:41 A -05:00] INFO  RepCalcs(0) - Download Contracts for GB Power ( mailbox repclient81, repId 41 )
+[Nov 28 05:39:41 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:39:41 A -05:00] INFO  RepCalcs(0) - ** Found a file to download GBPower_Contract_112718.csv **
+[Nov 28 05:39:42 A -05:00] INFO  RepCalcs(0) - Processing GB PowerContracts-112718-4742.csv
+[Nov 28 05:39:42 A -05:00] INFO  RepCalcs(0) - Moving GB PowerContracts-2018.11.28.zip to NDrive...
+[Nov 28 05:39:42 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:39:42 A -05:00] INFO  RepCalcs(0) - Scrubbing...
+[Nov 28 05:39:42 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:39:42 A -05:00] INFO  RepCalcs(0) - Loading...
+[Nov 28 05:39:42 A -05:00] INFO  RepData(0) - Querying pre calculated variable contract margins for repId 41
+[Nov 28 05:39:52 A -05:00] WARN  InputFile(0) - Syntax Errors: 329
+[Nov 28 05:39:52 A -05:00] WARN  InputFile(0) - Missing Usage: 211
+[Nov 28 05:39:52 A -05:00] WARN  InputFile(0) - Missing Margins: 0
+[Nov 28 05:39:52 A -05:00] WARN  InputFile(0) - Capped Margins (Power): 0
+[Nov 28 05:39:52 A -05:00] WARN  InputFile(0) - Capped Margins (Gas): 0
+[Nov 28 05:39:52 A -05:00] WARN  InputFile(0) - Expired Contracts: 105
+[Nov 28 05:39:52 A -05:00] INFO  InputFile(0) - There were 1,658 lines of data ( incl header ) and 329 lines with syntax errors and 0 warnings
+[Nov 28 05:39:52 A -05:00] INFO  RepCalcs(0) - Found 1,228 Valid Contracts and 329 Errors and 0 Warnings for GB Power and repclient81
+[Nov 28 05:39:52 A -05:00] ERROR RepCalcs(0) - XXX There were errors in the file, please see RepCalcs Contract log for details XXX
+[Nov 28 05:39:52 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 05:39:56 A -05:00] INFO  RepData(0) - ReplacePortfolioOp moved 2410 contracts out of the way for RepId: 41
+[Nov 28 05:39:56 A -05:00] INFO  RepData(0) - Inserting Contracts...
+[Nov 28 05:40:03 A -05:00] INFO  RepData(0) - ** Inserted 1228 new Contracts **
+[Nov 28 05:40:03 A -05:00] INFO  RepCalcs(0) - Residential...
+[Nov 28 05:40:03 A -05:00] INFO  RepCalcs(0) - Inserting 71 months of Fixed Contract Volumes
+[Nov 28 05:40:03 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Var Contract Volumes
+[Nov 28 05:40:03 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Nov 28 05:40:03 A -05:00] INFO  RepCalcs(0) - INSERTING DETAILED RESIDENTIAL CONTRACT VOLUMES
+[Nov 28 05:40:03 A -05:00] INFO  RepCalcs(0) - Inserting 107 rows of DETAILED Fixed Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Variable Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Commercial...
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 56 months of Fixed Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Var Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - INSERTING DETAILED COMMERCIAL CONTRACT VOLUMES
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 94 rows of DETAILED Fixed Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Variable Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:40:04 A -05:00] INFO  RepData(0) - linkContractsProducts returns 1228
+[Nov 28 05:40:04 A -05:00] INFO  RepData(0) - Looking for Orphan Power contracts
+[Nov 28 05:40:04 A -05:00] INFO  RepData(0) - linkContractsProducts2 returns 0
+[Nov 28 05:40:04 A -05:00] INFO  RepData(0) - Looking for Orphan Gas contracts
+[Nov 28 05:40:04 A -05:00] INFO  RepData(0) - linkContractsProducts3 returns 0
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 21
+[Nov 28 05:40:04 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - Download Contracts for Lexington ( mailbox repclient13, repId 21 )
+[Nov 28 05:40:04 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:40:05 A -05:00] ERROR RepCalcs(0) - Missing Contract Data file for Lexington
+[Nov 28 05:40:05 A -05:00] WARN  RepCalcs(0) - Missing Remote Contract File
+[Nov 28 05:40:05 A -05:00] WARN  RepCalcs(0) - XXX Since this REP has an Active Certificate, we are going to reload the most recent Contract File locally...
+[Nov 28 05:40:05 A -05:00] INFO  RepCalcs(0) - Will load up the most recent Contract File, which is: LexingtonContracts-111618-4731.csv
+[Nov 28 05:40:05 A -05:00] INFO  RepCalcs(0) - Processing LexingtonContracts-111618-4731.csv
+[Nov 28 05:40:05 A -05:00] INFO  RepCalcs(0) - Moving LexingtonContracts-2018.11.28.zip to NDrive...
+[Nov 28 05:40:05 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:40:05 A -05:00] INFO  RepCalcs(0) - Scrubbing...
+[Nov 28 05:40:05 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:40:05 A -05:00] INFO  RepCalcs(0) - Loading...
+[Nov 28 05:40:05 A -05:00] INFO  RepData(0) - Querying pre calculated variable contract margins for repId 21
+[Nov 28 05:40:20 A -05:00] WARN  InputFile(0) - Syntax Errors: 5
+[Nov 28 05:40:20 A -05:00] WARN  InputFile(0) - Missing Usage: 14
+[Nov 28 05:40:20 A -05:00] WARN  InputFile(0) - Missing Margins: 1
+[Nov 28 05:40:20 A -05:00] WARN  InputFile(0) - Capped Margins (Power): 886
+[Nov 28 05:40:20 A -05:00] WARN  InputFile(0) - Capped Margins (Gas): 560
+[Nov 28 05:40:20 A -05:00] WARN  InputFile(0) - Expired Contracts: 1
+[Nov 28 05:40:20 A -05:00] INFO  InputFile(0) - There were 1,687 lines of data ( incl header ) and 5 lines with syntax errors and 0 warnings
+[Nov 28 05:40:20 A -05:00] INFO  RepCalcs(0) - Found 1,673 Valid Contracts and 5 Errors and 0 Warnings for Lexington and repclient13
+[Nov 28 05:40:20 A -05:00] ERROR RepCalcs(0) - XXX There were errors in the file, please see RepCalcs Contract log for details XXX
+[Nov 28 05:40:20 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 05:40:20 A -05:00] INFO  RepData(0) - ReplacePortfolioOp moved 3346 contracts out of the way for RepId: 21
+[Nov 28 05:40:20 A -05:00] INFO  RepData(0) - Inserting Contracts...
+[Nov 28 05:40:31 A -05:00] INFO  RepData(0) - ** Inserted 1673 new Contracts **
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - Residential...
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - Inserting 63 months of Fixed Contract Volumes
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - Inserting 76 months of Var Contract Volumes
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - INSERTING DETAILED RESIDENTIAL CONTRACT VOLUMES
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - Inserting 74 rows of DETAILED Fixed Contract Volumes
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Nov 28 05:40:31 A -05:00] INFO  RepCalcs(0) - Inserting 304 rows of DETAILED  Variable Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Commercial...
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 91 months of Fixed Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 76 months of Var Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - INSERTING DETAILED COMMERCIAL CONTRACT VOLUMES
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 112 rows of DETAILED Fixed Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 190 rows of DETAILED  Variable Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:40:32 A -05:00] INFO  RepData(0) - linkContractsProducts returns 1673
+[Nov 28 05:40:32 A -05:00] INFO  RepData(0) - Looking for Orphan Power contracts
+[Nov 28 05:40:32 A -05:00] INFO  RepData(0) - linkContractsProducts2 returns 0
+[Nov 28 05:40:32 A -05:00] INFO  RepData(0) - Looking for Orphan Gas contracts
+[Nov 28 05:40:32 A -05:00] INFO  RepData(0) - linkContractsProducts3 returns 0
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 6
+[Nov 28 05:40:32 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - Download Contracts for APG ( mailbox repclient12, repId 6 )
+[Nov 28 05:40:32 A -05:00] INFO  RepCalcs(0) - ****************************************************************
+[Nov 28 05:40:33 A -05:00] INFO  RepCalcs(0) - ** Found a file to download AP&G2Vantage112718.csv **
+[Nov 28 05:40:38 A -05:00] INFO  RepCalcs(0) - Processing APGContracts-112718-4742.csv
+[Nov 28 05:40:44 A -05:00] INFO  RepCalcs(0) - Moving APGContracts-2018.11.28.zip to NDrive...
+[Nov 28 05:40:44 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:40:44 A -05:00] INFO  RepCalcs(0) - Scrubbing...
+[Nov 28 05:40:55 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 05:40:55 A -05:00] INFO  RepCalcs(0) - Loading...
+[Nov 28 05:40:55 A -05:00] INFO  RepData(0) - Querying pre calculated variable contract margins for repId 6
+[Nov 28 06:41:42 A -05:00] WARN  InputFile(0) - Syntax Errors: 3
+[Nov 28 06:41:42 A -05:00] WARN  InputFile(0) - Missing Usage: 1,170
+[Nov 28 06:41:42 A -05:00] WARN  InputFile(0) - Missing Margins: 3
+[Nov 28 06:41:42 A -05:00] WARN  InputFile(0) - Capped Margins (Power): 94,627
+[Nov 28 06:41:42 A -05:00] WARN  InputFile(0) - Capped Margins (Gas): 35,321
+[Nov 28 06:41:42 A -05:00] WARN  InputFile(0) - Expired Contracts: 0
+[Nov 28 06:41:42 A -05:00] INFO  InputFile(0) - There were 134,059 lines of data ( incl header ) and 3 lines with syntax errors and 0 warnings
+[Nov 28 06:41:44 A -05:00] INFO  RepCalcs(0) - Found 134,055 Valid Contracts and 3 Errors and 0 Warnings for APG and repclient12
+[Nov 28 06:41:44 A -05:00] ERROR RepCalcs(0) - XXX There were errors in the file, please see RepCalcs Contract log for details XXX
+[Nov 28 06:41:44 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 06:41:48 A -05:00] INFO  RepData(0) - ReplacePortfolioOp moved 267928 contracts out of the way for RepId: 6
+[Nov 28 06:41:48 A -05:00] INFO  RepData(0) - Inserting Contracts...
+[Nov 28 06:54:57 A -05:00] INFO  RepData(0) - ** Inserted 134055 new Contracts **
+[Nov 28 06:54:57 A -05:00] INFO  RepCalcs(0) - Residential...
+[Nov 28 06:54:57 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Fixed Contract Volumes
+[Nov 28 06:54:57 A -05:00] INFO  RepCalcs(0) - Inserting 684 months of Var Contract Volumes
+[Nov 28 06:54:59 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Nov 28 06:54:59 A -05:00] INFO  RepCalcs(0) - INSERTING DETAILED RESIDENTIAL CONTRACT VOLUMES
+[Nov 28 06:54:59 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Contract Volumes
+[Nov 28 06:54:59 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Nov 28 06:54:59 A -05:00] INFO  RepCalcs(0) - Inserting 1215 rows of DETAILED  Variable Contract Volumes
+[Nov 28 06:55:02 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Nov 28 06:55:02 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Nov 28 06:55:02 A -05:00] INFO  RepCalcs(0) - Commercial...
+[Nov 28 06:55:02 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Fixed Contract Volumes
+[Nov 28 06:55:02 A -05:00] INFO  RepCalcs(0) - Inserting 703 months of Var Contract Volumes
+[Nov 28 06:55:03 A -05:00] INFO  RepCalcs(0) - Inserting 0 months of Cap Contract Volumes
+[Nov 28 06:55:03 A -05:00] INFO  RepCalcs(0) - INSERTING DETAILED COMMERCIAL CONTRACT VOLUMES
+[Nov 28 06:55:03 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Contract Volumes
+[Nov 28 06:55:03 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED Fixed Pass Thru Contract Volumes
+[Nov 28 06:55:03 A -05:00] INFO  RepCalcs(0) - Inserting 1406 rows of DETAILED  Variable Contract Volumes
+[Nov 28 06:55:06 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Capped Contract Volumes
+[Nov 28 06:55:06 A -05:00] INFO  RepCalcs(0) - Inserting 0 rows of DETAILED  Fixed_Adder Contract Volumes
+[Nov 28 06:55:06 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:55:07 A -05:00] INFO  RepData(0) - linkContractsProducts returns 134055
+[Nov 28 06:55:07 A -05:00] INFO  RepData(0) - Looking for Orphan Power contracts
+[Nov 28 06:55:07 A -05:00] INFO  RepData(0) - linkContractsProducts2 returns 0
+[Nov 28 06:55:07 A -05:00] INFO  RepData(0) - Looking for Orphan Gas contracts
+[Nov 28 06:55:07 A -05:00] INFO  RepData(0) - linkContractsProducts3 returns 0
+[Nov 28 06:55:07 A -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 28 06:55:07 A -05:00] INFO  RepCalcs(0) - ********************* Contract Files processing complete. Processed 3 files *********************
+[Nov 28 06:55:07 A -05:00] INFO  RepCalcs(0) - Running analysis on processed client data
+[Nov 28 06:55:07 A -05:00] INFO  RepCalcs(0) - Skipping updating Contract History
+[Nov 28 06:55:07 A -05:00] INFO  RepCalcs(0) - Calculating 18 month load for Monthly contracts (Special case for Macquarie)
+[Nov 28 06:55:09 A -05:00] INFO  RepCalcs(0) - Done with 18 month load calculation
+[Nov 28 06:55:09 A -05:00] INFO  RepCalcs(0) - Running sp_clrRepAnalysis...
+[Nov 28 06:55:59 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:55:59 A -05:00] INFO  RepData(0) - Querying Hedge based haircut assumptions for NPV
+[Nov 28 06:55:59 A -05:00] INFO  RepData(0) - Done
+[Nov 28 06:55:59 A -05:00] INFO  RepData(0) - Querying Average Weighted Hedge Prices for Clients
+[Nov 28 06:55:59 A -05:00] INFO  RepData(0) - Done
+[Nov 28 06:55:59 A -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 28 06:55:59 A -05:00] INFO  RepCalcs(0) - RUNNING Hedge based Haircuts on PV to get Forward Values 
+[Nov 28 06:56:00 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 28 06:56:00 A -05:00] INFO  RepCalcs(0) - Inserted 2 values for RepId 6 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 28 06:56:02 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 28 06:56:02 A -05:00] INFO  RepCalcs(0) - Inserted 4 values for RepId 21 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 28 06:56:03 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 28 06:56:03 A -05:00] INFO  RepCalcs(0) - Inserted 1 values for RepId 41 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 28 06:56:05 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 28 06:56:05 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 46 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 28 06:56:06 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 28 06:56:06 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 66 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 28 06:56:07 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 28 06:56:07 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 76 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 28 06:56:09 A -05:00] INFO  RepCalcs(0) - Replaced 0 values in Esco Assets
+[Nov 28 06:56:09 A -05:00] INFO  RepCalcs(0) - Inserted 0 values for RepId 85 to Esco Assets for hedge haircutted Forward Value (PV).
+[Nov 28 06:56:09 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:09 A -05:00] INFO  RepCalcs(0) - UPDATING RCE Count in Esco Assets
+[Nov 28 06:56:10 A -05:00] INFO  RepData(0) - ESCO assets rows updated= 7
+[Nov 28 06:56:10 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:10 A -05:00] INFO  RepCalcs(0) - UPDATING PV values in Daily Compliance table
+[Nov 28 06:56:10 A -05:00] INFO  RepData(0) - Compliance PV rows updated= 3
+[Nov 28 06:56:10 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:10 A -05:00] INFO  RepCalcs(0) - Inserting data into Contract Metrics table
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:12 A -05:00] INFO  RepData(0) - Loaded 21 esco supplier mappings
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - RUNNING Esco Out of Money Position calculations
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 85
+[Nov 28 06:56:12 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 85
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 76
+[Nov 28 06:56:12 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 76
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 66
+[Nov 28 06:56:12 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 66
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 46
+[Nov 28 06:56:12 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 46
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 41
+[Nov 28 06:56:12 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 41
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:12 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 21
+[Nov 28 06:56:12 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 21
+[Nov 28 06:56:13 A -05:00] INFO  RepCalcs(0) - Inserting Esco In Money Positions data rows for repId 21 and Commodity 0
+[Nov 28 06:56:13 A -05:00] INFO  RepCalcs(0) - Inserting Esco Out of Money Positions data rows for repId 21 and Commodity 0
+[Nov 28 06:56:13 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:13 A -05:00] INFO  RepCalcs(0) - Replacing ESCO Money Positions data for repId 6
+[Nov 28 06:56:13 A -05:00] INFO  RepData(0) - Replaced 0 EscoInMoneyPositions values for repId 6
+[Nov 28 06:56:15 A -05:00] INFO  RepCalcs(0) - Inserting Esco In Money Positions data rows for repId 6 and Commodity 0
+[Nov 28 06:56:15 A -05:00] INFO  RepCalcs(0) - Inserting Esco Out of Money Positions data rows for repId 6 and Commodity 0
+[Nov 28 06:56:15 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:15 A -05:00] INFO  RepCalcs(0) - RUNNING calculation of Adjusted Forward Value of Customer Contracts code aka AFVCC.
+[Nov 28 06:56:15 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(200) - ********************************************************************************
+[Nov 28 06:56:15 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(201) - Starting 'CalculateAfvcc'
+[Nov 28 06:56:15 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(202) - RunDate = 11/28/2018 3:59:59 AM
+[Nov 28 06:56:15 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(203) - Run User = repcalcs
+[Nov 28 06:56:15 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(55) - Invalidating Afvcc values in OrganizationCompliance table for rundate: 11/28/2018 12:00:00 AM
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(66) - Invalidating values in EscoAdjustedForwardValues table for rundate: 11/28/2018 12:00:00 AM
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(76) - Done.
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 6
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 21
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 41
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 46
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 66
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 76
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(113) - Calculating Esco Adjusted Forward Value for EscoId: 85
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(144) - Done.
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(185) - Running calculations for Afvcc
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(188) - Done.
+[Nov 28 06:56:18 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(94) - Saving changes in Compliance Db
+[Nov 28 06:56:19 A -05:00] INFO  CalculateAfvcc.AfvccCalculator(96) - Done.
+[Nov 28 06:56:19 A -05:00] INFO  RepCalcs(0) - CalculateAfvcc is complete.
+[Nov 28 06:56:19 A -05:00] INFO  RepCalcs(0) - Running sp_clrRepConcRisk...
+[Nov 28 06:56:30 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:30 A -05:00] INFO  RepCalcs(0) - Running RCE calculation update in daily compliance table...
+[Nov 28 06:56:30 A -05:00] INFO  RepData(0) - Daily Compliance rows updated= 3
+[Nov 28 06:56:30 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 06:56:30 A -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 28 06:56:30 A -05:00] INFO  RepCalcs(0) - ~~ Finished RepCalcs ~
+[Nov 28 06:56:30 A -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 28 06:56:30 A -05:00] INFO  RepCalcs(0) - Sent logs in email to teamIt
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Running as User: repcalcs
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - arg0: 1
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - arg1: 2018-11-28 03:59:59
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - arg2: all
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - arg3: False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - arg4: True
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - 
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ** Starting RepSxdLoad **
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ** ImportContracts: False **
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ** RunPVCalc: False **
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ** RunAnalysis: False **
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ** ImportSchedLoad: True **
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ** ImportReceivables: True **
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ** recreateTabDailyComp: False **
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - **********************
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - ProcessThruDate	2018-11-28 03:59:59
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Current Directory	D:\CE\RepCalcs
+[Nov 28 11:10:01 A -05:00] INFO  RepData(0) - Loaded 1 generic config values from db
+[Nov 28 11:10:01 A -05:00] INFO  RepData(0) - Loaded 7 Active REP Clients
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - sourceWebDir	C:\Temp
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - sourceFTPDir	FTPFiles
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - downloadDir	D:\VMAC\Inetpub\VMAC\download4
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - modelDir	D:\CE\RepCalcs\RepModel
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Commit True
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - FixErrors False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Xpress False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - runAlways False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - uploadResults False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - contractHistory True
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - NDrive: D:\Dropbox (VCFS)\Compliance and Reporting
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - FTP Cleanup False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - SFTP Cleanup False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Email Enabled True
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Report Missing ContractFile True
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Report Missing SchedLoadFile False
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Report Missing Receivables True
+[Nov 28 11:10:01 A -05:00] INFO  RepData(0) - Found existing job JobId 4742
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Downloading Receivables for Reps since today a Biz Day
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 85
+[Nov 28 11:10:01 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Download Receivables for Volt ( mailbox repclient85, repId 85 )
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 85
+[Nov 28 11:10:01 A -05:00] INFO  RepCalcs(0) - File Pattern: 11282018 Billed
+[Nov 28 11:10:02 A -05:00] INFO  RepCalcs(0) - Found 11282018 Billed.csv downloading...
+[Nov 28 11:10:03 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 11:10:03 A -05:00] INFO  RepCalcs(0) - 11282018 Billed.csv
+[Nov 28 11:10:03 A -05:00] INFO  RepCalcs(0) - Rows count:11128
+[Nov 28 11:10:03 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 11:10:03 A -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 85
+[Nov 28 11:12:26 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into Intermediate Table for rep: 85
+[Nov 28 11:12:26 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 11:12:26 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 28 11:12:26 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenBilled]
+[Nov 28 11:12:26 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 28 11:14:29 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 28 11:14:29 A -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 85 import to database
+[Nov 28 11:14:29 A -05:00] INFO  RepCalcs(0) - Volt Receivables billed imported to the N drive
+[Nov 28 11:14:29 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:14:29 A -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 85
+[Nov 28 11:14:29 A -05:00] INFO  RepCalcs(0) - File Pattern: 11282018 UnBilled.csv
+[Nov 28 11:14:29 A -05:00] INFO  RepCalcs(0) - Found 11282018 UnBilled.csv downloading...
+[Nov 28 11:14:30 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 11:14:30 A -05:00] INFO  RepCalcs(0) - 11282018 UnBilled.csv
+[Nov 28 11:14:30 A -05:00] INFO  RepCalcs(0) - Rows count:10455
+[Nov 28 11:14:30 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 11:14:33 A -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenUnBilled, rep: 85
+[Nov 28 11:14:34 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into intermediate table for rep: 85
+[Nov 28 11:14:34 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 11:14:34 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGen Table for rep: 85
+[Nov 28 11:14:34 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 85 in [clr_RepGenUnBilled]
+[Nov 28 11:14:34 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 85
+[Nov 28 11:18:45 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 28 11:18:45 A -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 85 import to database
+[Nov 28 11:18:45 A -05:00] INFO  RepCalcs(0) - Volt Receivables unbilled imported to the N drive
+[Nov 28 11:18:45 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:18:45 A -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 28 11:18:46 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 11:18:46 A -05:00] INFO  RepCalcs(0) - 11282018 Billed.csv transferred to the DB server
+[Nov 28 11:18:46 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 11:18:46 A -05:00] INFO  RepCalcs(0) - 11282018 UnBilled.csv transferred to the DB server
+[Nov 28 11:18:46 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 11:18:46 A -05:00] INFO  RepCalcs(0) - Importing Volt Receivables
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 76
+[Nov 28 11:22:53 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Download Receivables for Atlantic ( mailbox repclient76, repId 76 )
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 76
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - File Pattern: Atlantic_ARAgedSummaryreport_20181127.csv
+[Nov 28 11:22:53 A -05:00] INFO  RepCalcs(0) - Found Atlantic_ARAgedSummaryreport_20181127.csv downloading...
+[Nov 28 11:22:58 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 11:22:58 A -05:00] INFO  RepCalcs(0) - Atlantic_ARAgedSummaryreport_20181127.csv
+[Nov 28 11:23:01 A -05:00] INFO  RepCalcs(0) - Rows count:114747
+[Nov 28 11:23:01 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 11:25:15 A -05:00] INFO  RepCalcs(0) - Finished IntraDay Delete for RepGenBilled, rep: 76
+[Nov 28 11:25:15 A -05:00] INFO  RepCalcs(0) - Finished IntraDay Delete for clr_RepBilled_Atlantic, rep: 76
+[Nov 28 11:25:16 A -05:00] INFO  RepCalcs(0) - Finished Inserting into clr_RepBilled_Atlantic
+[Nov 28 11:25:16 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 11:25:16 A -05:00] INFO  RepCalcs(0) - Finished Inserting rows into RepGenBilled for rep: 76
+[Nov 28 11:25:16 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 76
+[Nov 28 11:27:17 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 28 11:27:17 A -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 76 import to database
+[Nov 28 11:27:17 A -05:00] INFO  RepCalcs(0) - Atlantic Receivables billed imported to the N drive
+[Nov 28 11:27:17 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:27:18 A -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 28 11:27:18 A -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Atlantic
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - No UnBilled file for Atlantic today
+[Nov 28 11:27:18 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 66
+[Nov 28 11:27:18 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - Download Receivables for Genie Energy ( mailbox repclient66, repId 66 )
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 28 11:27:18 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 28 11:27:19 A -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 28 11:27:19 A -05:00] ERROR RepCalcs(0) - Problem downloading Billed file for Genie Energy
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - No Billed file for Genie Energy today
+[Nov 28 11:27:19 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:27:19 A -05:00] ERROR RepCalcs(0) - File does not exist! Check File Name or SFTP Mailbox!
+[Nov 28 11:27:19 A -05:00] ERROR RepCalcs(0) - Problem downloading UnBilled file for Genie Energy
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - No UnBilled file for Genie Energy today
+[Nov 28 11:27:19 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 46
+[Nov 28 11:27:19 A -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - Download Receivables for Discount ( mailbox repclient46, repId 46 )
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 46
+[Nov 28 11:27:19 A -05:00] INFO  RepCalcs(0) - File Pattern: AR_Detail_As_Of_Date_2018-11-27*.csv
+[Nov 28 11:27:20 A -05:00] INFO  RepCalcs(0) - Found AR_Detail_As_Of_Date_2018-11-27.20.02_20181127_200339.csv downloading...
+[Nov 28 11:27:33 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 11:27:33 A -05:00] INFO  RepCalcs(0) - AR_Detail_As_Of_Date_2018-11-27.20.02_20181127_200339.csv
+[Nov 28 11:27:41 A -05:00] INFO  RepCalcs(0) - Rows count:235924
+[Nov 28 11:27:41 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 11:29:46 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenBilled for Rep: 46
+[Nov 28 11:31:01 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepBilledARAnalysis_Discount
+[Nov 28 11:31:03 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 11:31:07 A -05:00] INFO  RepCalcs(0) - Finished inserting into clr_RepbilledARAnalysis_Discount
+[Nov 28 11:31:09 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 11:31:11 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenBilled]
+[Nov 28 11:31:11 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 28 11:38:10 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 28 11:38:10 A -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 46 import to database
+[Nov 28 11:38:10 A -05:00] INFO  RepCalcs(0) - Discount Receivables billed imported to the N drive
+[Nov 28 11:38:10 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:38:10 A -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 46
+[Nov 28 11:38:10 A -05:00] INFO  RepCalcs(0) - File Pattern: UBL_DP_20181128.csv
+[Nov 28 11:38:11 A -05:00] INFO  RepCalcs(0) - Found UBL_DP_20181128.csv downloading...
+[Nov 28 11:38:12 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 11:38:12 A -05:00] INFO  RepCalcs(0) - UBL_DP_20181128.csv
+[Nov 28 11:38:12 A -05:00] INFO  RepCalcs(0) - Rows count:270
+[Nov 28 11:38:12 A -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 11:38:15 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepGenUnBilled for Rep: 46
+[Nov 28 11:38:15 A -05:00] INFO  RepCalcs(0) - Finished Intra Day Delete on clr_RepUnBilledARAnalysis_Discount
+[Nov 28 11:38:15 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 11:38:15 A -05:00] INFO  RepCalcs(0) - Finished Inserting into ARAnalysisUnbilled
+[Nov 28 11:38:15 A -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 11:38:15 A -05:00] INFO  RepCalcs(0) - Recv file uploaded for 46 in [clr_RepGenUnBilled]
+[Nov 28 11:38:15 A -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 46
+[Nov 28 11:49:32 A -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 28 11:49:32 A -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 46 import to database
+[Nov 28 11:49:32 A -05:00] INFO  RepCalcs(0) - Discount Receivables unbilled imported to the N drive
+[Nov 28 11:49:32 A -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 11:49:32 A -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 28 11:49:39 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 11:49:39 A -05:00] INFO  RepCalcs(0) - AR_Detail_As_Of_Date_2018-11-27.20.02_20181127_200339.csv transferred to the DB server
+[Nov 28 11:49:39 A -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 11:49:39 A -05:00] INFO  RepCalcs(0) - UBL_DP_20181128.csv transferred to the DB server
+[Nov 28 11:49:39 A -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 11:49:39 A -05:00] INFO  RepCalcs(0) - Importing Discount Receivables
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 41
+[Nov 28 12:00:14 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Download Receivables for GB Power ( mailbox repclient81, repId 41 )
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Inserted 0 rows in EscoReceivables
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - Retrieving Billed FileName Pattern for rep 41
+[Nov 28 12:00:14 P -05:00] INFO  RepCalcs(0) - File Pattern: 181128000*_VantageBilled.csv
+[Nov 28 12:00:15 P -05:00] INFO  RepCalcs(0) - Found 1811280001_VantageBilled.csv downloading...
+[Nov 28 12:00:15 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 12:00:15 P -05:00] INFO  RepCalcs(0) - 1811280001_VantageBilled.csv
+[Nov 28 12:00:15 P -05:00] INFO  RepCalcs(0) - Rows count:1626
+[Nov 28 12:00:15 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 12:00:15 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 41
+[Nov 28 12:02:28 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 12:02:28 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 41 in [clr_RepGenBilled]
+[Nov 28 12:02:28 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 41
+[Nov 28 12:04:26 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 28 12:04:26 P -05:00] INFO  RepCalcs(0) - Done receivables for billed rep: 41 import to database
+[Nov 28 12:04:26 P -05:00] INFO  RepCalcs(0) - GB Power Receivables billed imported to the N drive
+[Nov 28 12:04:26 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 12:04:26 P -05:00] INFO  RepCalcs(0) - Retrieving Unbilled FileName Pattern for rep 41
+[Nov 28 12:04:26 P -05:00] INFO  RepCalcs(0) - File Pattern: 181128000*_VantageUnbilled.csv
+[Nov 28 12:04:27 P -05:00] INFO  RepCalcs(0) - Found 1811280002_VantageUnbilled.csv downloading...
+[Nov 28 12:04:28 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 12:04:28 P -05:00] INFO  RepCalcs(0) - 1811280002_VantageUnbilled.csv
+[Nov 28 12:04:28 P -05:00] INFO  RepCalcs(0) - Rows count:1746
+[Nov 28 12:04:28 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 12:04:28 P -05:00] INFO  RepCalcs(0) - Doing an IntraDay Delete for RepGenBilled, rep: 41
+[Nov 28 12:04:32 P -05:00] INFO  RepCalcs(0) - Running BulkCopy Insert
+[Nov 28 12:04:32 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 41 in [clr_RepGenUnBilled]
+[Nov 28 12:04:32 P -05:00] INFO  RepCalcs(0) - Executing sp_clrRepGenReceivables for Rep: 41
+[Nov 28 12:09:05 P -05:00] INFO  RepCalcs(0) - Finished BulkCopy insert
+[Nov 28 12:09:05 P -05:00] INFO  RepCalcs(0) - Done receivables for unbilled rep: 41 import to database
+[Nov 28 12:09:05 P -05:00] INFO  RepCalcs(0) - GB Power Receivables unbilled imported to the N drive
+[Nov 28 12:09:05 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 12:09:05 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 28 12:09:06 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 12:09:06 P -05:00] INFO  RepCalcs(0) - 1811280001_VantageBilled.csv transferred to the DB server
+[Nov 28 12:09:06 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 12:09:06 P -05:00] INFO  RepCalcs(0) - 1811280002_VantageUnbilled.csv transferred to the DB server
+[Nov 28 12:09:06 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 12:09:06 P -05:00] INFO  RepCalcs(0) - Importing GB Power Receivables
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 21
+[Nov 28 12:14:44 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Download Receivables for Lexington ( mailbox repclient13, repId 21 )
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Inserted 2 rows in EscoReceivables
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Running ECI receivables for Lexington
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - FilePattern:Lexington_Billed_381_V2020181128
+[Nov 28 12:14:44 P -05:00] ERROR RepCalcs(0) - System.IO.FileNotFoundException: Could not find file 'D:\CE\RepCalcs\test'.
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.ValidatePath(String path)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.InitializeFromPath(String path, Encoding defaultEncoding, Boolean detectEncoding)
+   at RepCalcs.GetDataTableFromCSVFile(String csvFilePath)
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - csvFilePathLex:test
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Rows count:0
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Deleted old contents of: [clr_RepBilled_Lex]
+[Nov 28 12:14:44 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 21 in [clr_RepBilled_Lex]
+[Nov 28 12:23:09 P -05:00] INFO  RepCalcs(0) - Done Lex receivables billed import to database
+[Nov 28 12:23:09 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 12:23:09 P -05:00] ERROR RepCalcs(0) - System.IO.FileNotFoundException: Could not find file 'D:\CE\RepCalcs\test'.
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.ValidatePath(String path)
+   at Microsoft.VisualBasic.FileIO.TextFieldParser.InitializeFromPath(String path, Encoding defaultEncoding, Boolean detectEncoding)
+   at RepCalcs.GetDataTableFromCSVFile(String csvFilePath)
+[Nov 28 12:23:09 P -05:00] INFO  RepCalcs(0) - test
+[Nov 28 12:23:09 P -05:00] INFO  RepCalcs(0) - Rows count:0
+[Nov 28 12:23:09 P -05:00] INFO  RepCalcs(0) - Connection string: Data Source=prd-SQLP-A01;Initial Catalog=APX2000;Integrated Security = true
+[Nov 28 12:23:09 P -05:00] INFO  RepCalcs(0) - Deleted old contents of: [clr_RepUnBilled_Lex]
+[Nov 28 12:23:09 P -05:00] INFO  RepCalcs(0) - Recv file uploaded for 21 in [clr_RepUnBilled_Lex]
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - Done Lex receivables unbilled import to database
+[Nov 28 12:32:54 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 12:32:54 P -05:00] ERROR RepCalcs(0) - Problem moving Receivables to N Drive
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - Switching to SFTP for RepId: 6
+[Nov 28 12:32:54 P -05:00] INFO  RepData(0) - Querying Data Error Codes and Description...
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - Download Receivables for APG ( mailbox repclient12, repId 6 )
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - Importing previous day receivable numbers in EscoReceivables
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - Deleted 0 rows in EscoReceivables
+[Nov 28 12:32:54 P -05:00] INFO  RepCalcs(0) - Inserted 2 rows in EscoReceivables
+[Nov 28 12:32:55 P -05:00] INFO  RepCalcs(0) - Found APG_Billed_112818.csv downloading...
+[Nov 28 12:32:57 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 12:32:57 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 12:32:58 P -05:00] INFO  RepCalcs(0) - Found APG_Unbilled_112818.csv downloading...
+[Nov 28 12:33:00 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 12:33:00 P -05:00] INFO  RepData(0) - Inserting COUNT of Errors in file to database...
+[Nov 28 12:33:00 P -05:00] INFO  RepCalcs(0) - Scrubbing file (removing commas/quotes and blank spaces)...
+[Nov 28 12:33:01 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 12:33:01 P -05:00] INFO  RepCalcs(0) - APG_Billed_11-28-2018.csv transferred to the DB server
+[Nov 28 12:33:02 P -05:00] INFO  Util(0) - Removed 0 Zeros
+[Nov 28 12:33:02 P -05:00] INFO  RepCalcs(0) - APG_Unbilled_11-28-2018.csv transferred to the DB server
+[Nov 28 12:33:02 P -05:00] INFO  RepCalcs(0) - Done
+[Nov 28 12:33:02 P -05:00] INFO  RepCalcs(0) - Importing APG Receivables
+[Nov 28 12:41:21 P -05:00] INFO  RepCalcs(0) - Done Importing Receivables
+[Nov 28 12:41:21 P -05:00] INFO  RepCalcs(0) - Skipping cleanup
+[Nov 28 12:41:21 P -05:00] INFO  RepCalcs(0) - Done with Receivables
+[Nov 28 12:41:21 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 28 12:41:21 P -05:00] INFO  RepCalcs(0) - ~~ Finished RepSxdLoad ~
+[Nov 28 12:41:21 P -05:00] INFO  RepCalcs(0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 28 12:41:21 P -05:00] INFO  RepCalcs(0) - Sent logs in email to teamIt

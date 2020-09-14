@@ -1,0 +1,61 @@
+File: \\prd-app-a01\d$\CE\Repcalcs\FTPFiles\Receivables\APG_Unbilled_05-12-2020.csv
+
+Client: APG Unbilled File
+
+Computed IQR: 472.41399999999993
+Customer Number             0003296402
+Unbilled Amount                27619.9
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 6114, dtype: object
+
+Customer Number                N122996
+Unbilled Amount                15588.3
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 19000, dtype: object
+
+Customer Number                N140126
+Unbilled Amount                16975.7
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 20983, dtype: object
+
+Customer Number                N191030
+Unbilled Amount                10538.6
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 26524, dtype: object
+
+Customer Number                N197506
+Unbilled Amount                10018.7
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 27360, dtype: object
+
+Customer Number                N334428
+Unbilled Amount                10682.2
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 41465, dtype: object
+
+Customer Number                N368575
+Unbilled Amount                12021.1
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 45850, dtype: object
+
+Customer Number                N442024
+Unbilled Amount                22262.4
+POR                                  1
+RepID                                6
+ProcessThruDate    2020-05-12 03:59:59
+Name: 59925, dtype: object
+

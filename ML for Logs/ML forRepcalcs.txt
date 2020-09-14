@@ -1,0 +1,26 @@
+could do a similar approach as edfdump 
+parse out the sections for each client and use machine learning to determine whether there was an error
+	=> EX. For receivables
+		pass in Volt's section
+			classify on what type of error
+				- No billed file
+				- file has different chars that couldnt be parsed
+				- no unbilled file
+				- error with unbilled file etc
+		then have a dashboard like the edfdump one but instead of the different sections,
+			the categories will be the clients
+		
+MAIN ISSUE: NOT ENOUGH DATA
+	- not many errors have occured as of late so don't really have failed examples to train algorithm on
+	- only error has been discount error 
+	- so do a error classification for each client
+
+
+
+Finished log parsing
+havent done ML yet
+next step is to add choices
+	|-> QA or PRD
+	|-> Contracts or Receivables
+
+having finished parsing for contracts should make parsing of Receivables easy

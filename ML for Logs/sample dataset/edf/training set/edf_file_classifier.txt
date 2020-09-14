@@ -1,0 +1,28 @@
+NO ERRORS:
+11-14
+11-15
+11-16
+11-20
+11-21
+11-22
+11-24
+11-25
+11-26
+11-27
+11-28
+11-29
+11-30
+
+
+ERROR MSGs BUT STILL SUCCESS:
+11-17
+11-18
+11-23
+
+
+ERRORS:
+11-19	--> ERROR on M2M, failed before backtrack through dates 
+
+
+train on PRD since there are more files, test on QA 
+will need a lot more error files to generalize well

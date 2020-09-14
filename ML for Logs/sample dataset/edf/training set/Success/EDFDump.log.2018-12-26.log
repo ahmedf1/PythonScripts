@@ -1,0 +1,230 @@
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - Running as User: repcalcs
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg0: 1
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg1: 2018-12-26 03:59:59
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg2: edf
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg3: True
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - 
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - ** Starting EDFPrices **
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - ProcessThruDate 2018-12-26 03:59:59
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - Current directory D:\CE\EDFDump
+[Dec 26 05:00:01 A -05:00] INFO  EDFDumpData GetConfiguration(0) - Loaded 1 generic config values from db
+[Dec 26 05:00:01 A -05:00] INFO  DirCleaner run     (0) - Deleting File .\EDFDump.log.2018-12-09.log
+[Dec 26 05:00:01 A -05:00] INFO  DirCleaner run     (0) - Deleted 1 files in .
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Init    (0) - Commit: True
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Init    (0) - commitGlacier: True
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump Main    (0) - EdfPositionRun :False EdfShapedPositionsRun:False EdfPricesRun:True EdfM2MRun:False ShellM2MRun:False TownsquareM2MRun:False EscowareM2MRun:False
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump RunPrices(0) - * Encompass Prices *
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Dec 26 05:00:01 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-12-25 (Confidential).csv...
+[Dec 26 05:00:04 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Dec 26 05:00:04 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Dec 26 05:00:04 A -05:00] INFO  EDFDump DownloadPrices(0) - Scrubbing file (removing commas/quotes)...
+[Dec 26 05:00:04 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Dec 26 05:00:04 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - prices.csv transferred to the DB server
+[Dec 26 05:00:04 A -05:00] INFO  EDFDump DownloadPrices(0) - Importing Encompass Prices into the database...
+[Dec 26 05:00:35 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Dec 26 05:00:35 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Dec 26 05:00:35 A -05:00] INFO  EDFDump Finish  (0) - ~~ Finished EDFPrices ~
+[Dec 26 05:00:35 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Main    (0) - Running as User: repcalcs
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg0: 1
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg1: 2018-12-26 03:59:59
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg2: Edf
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - 
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - ** Starting EDFDump **
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - ProcessThruDate 2018-12-26 03:59:59
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - Current directory D:\CE\EdfDump
+[Dec 26 05:30:01 A -05:00] INFO  EDFDumpData GetConfiguration(0) - Loaded 1 generic config values from db
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Init    (0) - Commit: True
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Init    (0) - commitGlacier: True
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump Main    (0) - EdfPositionRun :True EdfShapedPositionsRun:True EdfPricesRun:True EdfM2MRun:True ShellM2MRun:False TownsquareM2MRun:False EscowareM2MRun:False
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - *****************************
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - * Encompass 5 Day Hourly Positions *
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - *****************************
+[Dec 26 05:30:01 A -05:00] INFO  EDFDumpData LoadRepClientInfoRepId(0) - Loaded 7 Active REP Clients
+[Dec 26 05:30:01 A -05:00] INFO  EDFDump DownloadPositions(0) - Looking for 5 Day Exposure Detail by Hour 12_25_2018.csv...
+[Dec 26 05:30:02 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - OpenFile returned NULL
+[Dec 26 05:30:02 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - ChilkatLog:
+  OpenFile:
+    DllDate: Aug 15 2013
+    ChilkatVersion: 9.4.1.42
+    UnlockPrefix: VMACJPSSH
+    Username: PRD-APP-A01:repcalcs
+    Architecture: Little Endian; 64-bit
+    Language: .NET 2.0 / x64
+    VerboseLogging: 0
+    SshVersion: SSH-2.0-WS_FTP-SSH_7.7
+    SftpVersion: 3
+    filename: /vantage/Exposure/5 Day Exposure Detail by Hour 12_25_2018.csv
+    access: readOnly
+    createDisposition: openExisting
+    v3Flags: 0x1
+    Sent FXP_OPEN
+    StatusResponseFromServer:
+      Request: FXP_OPEN
+      InformationReceivedFromServer:
+        StatusCode: 4
+        StatusMessage: Failed to open local file
+      --InformationReceivedFromServer
+    --StatusResponseFromServer
+    Failed.
+  --OpenFile
+--ChilkatLog
+
+[Dec 26 05:30:02 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download 5 Day Exposure Detail by Hour 12_25_2018.csv, aborting...
+[Dec 26 05:30:02 A -05:00] ERROR EDFDump SendEmail(0) - File '5 Day Exposure Detail by Hour 12_25_2018.csv' not uploaded, reloading last best file...
+System.IO.FileNotFoundException: OpenFile returned false
+   at EDFDump.DownloadSecureFtpFile(String filenameSrc, String filenameDest, String hostname, String mailbox, String username, String password, String localDir, Int32 portNumber)
+   at EDFDump.DownloadPositions()
+   at EDFDump.DownloadFileWithRetry(Action downloadFileAction, Action downloadWithRetryAction, Func`1 getFileNameFunc)
+[Dec 26 05:30:02 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file '5 Day Exposure Detail by Hour 12_24_2018.csv'
+[Dec 26 05:30:02 A -05:00] INFO  EDFDump DownloadPositions(0) - Looking for 5 Day Exposure Detail by Hour 12_24_2018.csv...
+[Dec 26 05:30:24 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Dec 26 05:30:24 A -05:00] INFO  EDFDump DownloadPositions(0) - Done
+[Dec 26 05:30:24 A -05:00] INFO  EDFDump DownloadPositions(0) - Scrubbing file (removing commas/quotes)...
+[Dec 26 05:30:32 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 79,413 rows for inactive REPs: SGE Energy Sourcing LLC, AP Holdings LLC, AP&G Holdings LLC, Nordic Energy Services LLC, XOOM Energy LLC
+[Dec 26 05:30:32 A -05:00] INFO  EDFDump DownloadPositions(0) - Done
+[Dec 26 05:30:32 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - positions.csv transferred to the DB server
+[Dec 26 05:30:32 A -05:00] INFO  EDFDump DownloadPositions(0) - Importing Encompass Positions into the database...
+[Dec 26 05:31:18 A -05:00] INFO  EDFDump DownloadPositions(0) - Done
+[Dec 26 05:31:18 A -05:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Dec 26 05:31:18 A -05:00] INFO  EDFDump RunShapedPositions(0) - * Encompass Shaped Positions *
+[Dec 26 05:31:18 A -05:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Dec 26 05:31:18 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 12_25_2018.csv...
+[Dec 26 05:31:19 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - OpenFile returned NULL
+[Dec 26 05:31:19 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - ChilkatLog:
+  OpenFile:
+    DllDate: Aug 15 2013
+    ChilkatVersion: 9.4.1.42
+    UnlockPrefix: VMACJPSSH
+    Username: PRD-APP-A01:repcalcs
+    Architecture: Little Endian; 64-bit
+    Language: .NET 2.0 / x64
+    VerboseLogging: 0
+    SshVersion: SSH-2.0-WS_FTP-SSH_7.7
+    SftpVersion: 3
+    filename: /vantage/Exposure/12 Months/Exposure Detail 12 Months 12_25_2018.csv
+    access: readOnly
+    createDisposition: openExisting
+    v3Flags: 0x1
+    Sent FXP_OPEN
+    StatusResponseFromServer:
+      Request: FXP_OPEN
+      InformationReceivedFromServer:
+        StatusCode: 4
+        StatusMessage: Failed to open local file
+      --InformationReceivedFromServer
+    --StatusResponseFromServer
+    Failed.
+  --OpenFile
+--ChilkatLog
+
+[Dec 26 05:31:19 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Exposure Detail 12 Months 12_25_2018.csv, aborting...
+[Dec 26 05:31:19 A -05:00] ERROR EDFDump SendEmail(0) - File 'Exposure Detail 12 Months 12_25_2018.csv' not uploaded, reloading last best file...
+System.IO.FileNotFoundException: OpenFile returned false
+   at EDFDump.DownloadSecureFtpFile(String filenameSrc, String filenameDest, String hostname, String mailbox, String username, String password, String localDir, Int32 portNumber)
+   at EDFDump.DownloadShapedPositions()
+   at EDFDump.DownloadFileWithRetry(Action downloadFileAction, Action downloadWithRetryAction, Func`1 getFileNameFunc)
+[Dec 26 05:31:19 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Exposure Detail 12 Months 12_24_2018.csv'
+[Dec 26 05:31:19 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 12_24_2018.csv...
+[Dec 26 05:31:25 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Dec 26 05:31:25 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Dec 26 05:31:25 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Scrubbing file (removing commas/quotes)...
+[Dec 26 05:31:27 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 25,963 rows for inactive REPs: SGE Energy Sourcing LLC, AP Holdings LLC
+[Dec 26 05:31:27 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Dec 26 05:31:27 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - shapedPositions.csv transferred to the DB server
+[Dec 26 05:31:27 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Importing Encompass Shaped Positions...
+[Dec 26 05:31:38 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done. Rows affected : 0
+[Dec 26 05:31:38 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Dec 26 05:31:38 A -05:00] INFO  EDFDump RunPrices(0) - * Encompass Prices *
+[Dec 26 05:31:38 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Dec 26 05:31:38 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-12-25 (Confidential).csv...
+[Dec 26 05:31:39 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Dec 26 05:31:39 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Dec 26 05:31:39 A -05:00] INFO  EDFDump DownloadPrices(0) - Scrubbing file (removing commas/quotes)...
+[Dec 26 05:31:40 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Dec 26 05:31:40 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - prices.csv transferred to the DB server
+[Dec 26 05:31:40 A -05:00] INFO  EDFDump DownloadPrices(0) - Importing Encompass Prices into the database...
+[Dec 26 05:31:41 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Dec 26 05:31:41 A -05:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Dec 26 05:31:41 A -05:00] INFO  EDFDump RunM2MEdf(0) - * Encompass M2M *
+[Dec 26 05:31:41 A -05:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Dec 26 05:31:41 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_12_25_2018.zip'
+[Dec 26 05:31:41 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Downloading for Mark_to_Market_Detail_Dump_12_25_2018.zip...
+[Dec 26 05:31:42 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - OpenFile returned NULL
+[Dec 26 05:31:42 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - ChilkatLog:
+  OpenFile:
+    DllDate: Aug 15 2013
+    ChilkatVersion: 9.4.1.42
+    UnlockPrefix: VMACJPSSH
+    Username: PRD-APP-A01:repcalcs
+    Architecture: Little Endian; 64-bit
+    Language: .NET 2.0 / x64
+    VerboseLogging: 0
+    SshVersion: SSH-2.0-WS_FTP-SSH_7.7
+    SftpVersion: 3
+    filename: /vantage/Mark_to_Market_Detail_Dump_12_25_2018.zip
+    access: readOnly
+    createDisposition: openExisting
+    v3Flags: 0x1
+    Sent FXP_OPEN
+    StatusResponseFromServer:
+      Request: FXP_OPEN
+      InformationReceivedFromServer:
+        StatusCode: 4
+        StatusMessage: Failed to open local file
+      --InformationReceivedFromServer
+    --StatusResponseFromServer
+    Failed.
+  --OpenFile
+--ChilkatLog
+
+[Dec 26 05:31:42 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Mark_to_Market_Detail_Dump_12_25_2018.zip, aborting...
+[Dec 26 05:31:42 A -05:00] ERROR EDFDump SendEmail(0) - File 'Mark_to_Market_Detail_Dump_12_25_2018.zip' not uploaded, reloading last best file...
+System.IO.FileNotFoundException: OpenFile returned false
+   at EDFDump.DownloadSecureFtpFile(String filenameSrc, String filenameDest, String hostname, String mailbox, String username, String password, String localDir, Int32 portNumber)
+   at EDFDump.DownloadMarkToMarketFile(String fileNameSrc, String fileNameDest, String fileHost, String fileMailbox, String fileUsername, String filePassword, String fileDownloadDir, Boolean skipDownload, String skipFileMessage, String supplierName, Int32 portNumber)
+   at EDFDump.ProcessEdfM2MFile()
+   at EDFDump.DownloadFileWithRetry(Action downloadFileAction, Action downloadWithRetryAction, Func`1 getFileNameFunc)
+[Dec 26 05:31:42 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_12_24_2018.zip'
+[Dec 26 05:31:42 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Downloading for Mark_to_Market_Detail_Dump_12_24_2018.zip...
+[Dec 26 05:31:49 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Dec 26 05:31:49 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Dec 26 05:31:49 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Unzipping Mark_to_Market_Detail_Dump_12_24_2018.zip...
+[Dec 26 05:31:53 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Dec 26 05:31:54 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Scrubbing file (removing commas/quotes)...
+[Dec 26 05:33:47 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 765,671 rows for inactive REPs: SGE Energy Sourcing, LLC, AP Holdings, LLC, Nordic Energy Services, LLC, XOOM Energy, LLC
+[Dec 26 05:33:47 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Found 203,511 rows of fees
+[Dec 26 05:33:47 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 131,759 rows with zero quantities
+[Dec 26 05:33:47 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Dec 26 05:33:48 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - m2m.csv transferred to the DB server
+[Dec 26 05:33:51 A -05:00] INFO  EDFDump CompressAndMoveToNDrive(0) - Moving m2m-2018.12.26.zip to NDrive...
+[Dec 26 05:33:51 A -05:00] INFO  EDFDump CompressAndMoveToNDrive(0) - Done
+[Dec 26 05:33:51 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Importing Encompass data into the database...
+[Dec 26 05:34:37 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Done
+[Dec 26 05:34:37 A -05:00] INFO  EDFDump UploadToHistoricalDatabase(0) - Importing complete EDF supplier data into the Glacier historical database...
+[Dec 26 05:39:12 A -05:00] INFO  EDFDump UploadToHistoricalDatabase(0) - Done
+[Dec 26 05:39:15 A -05:00] INFO  EDFDumpData GetEscoSupplierMapping(0) - Loaded 21 esco supplier mappings
+[Dec 26 05:39:17 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 6
+[Dec 26 05:39:17 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 21
+[Dec 26 05:39:17 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 41
+[Dec 26 05:39:17 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 46
+[Dec 26 05:39:17 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 66
+[Dec 26 05:39:17 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 76
+[Dec 26 05:39:17 A -05:00] INFO  EDFDumpData CreateNewDailyComplianceCertificate(0) - Creating Daily Cert for 85
+[Dec 26 05:39:17 A -05:00] INFO  EDFDump RunDailyComplianceUpdate(0) - Running sp_clrRepDailyComplianceUpdate...
+[Dec 26 05:39:18 A -05:00] INFO  EDFDump RunDailyComplianceUpdate(0) - Done
+[Dec 26 05:39:18 A -05:00] INFO  EDFDumpData AddEdfHedges(0) - Deleted 0 rows from edfHedgeVolumes table for date: 12/26/2018 3:59:59 AM
+[Dec 26 05:39:19 A -05:00] INFO  EDFDumpData AddEdfHedges(0) - Added 9616 rows to edfHedgeVolumes table for date: 12/26/2018 3:59:59 AM
+[Dec 26 05:39:19 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Dec 26 05:39:19 A -05:00] INFO  EDFDump Finish  (0) - ~~ Finished EDFDump ~
+[Dec 26 05:39:19 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~

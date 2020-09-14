@@ -1,0 +1,14 @@
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump RunShapedPositions(0) - * Encompass Shaped Positions *
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Sep 02 06:30:01 A -04:00] INFO  EDFDumpData LoadRepClientInfoRepId(0) - Loaded 3 Active REP Clients
+[Sep 02 06:30:01 A -04:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 09_01_2020.csv...
+[Sep 02 06:30:07 A -04:00] INFO  EDFDump DownloadSecureFtpFile(0) - File to Download...Exposure Detail 12 Months 06_07_2019.csv
+[Sep 02 06:30:07 A -04:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Sep 02 06:30:07 A -04:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Sep 02 06:30:07 A -04:00] INFO  EDFDump DownloadShapedPositions(0) - Scrubbing file (removing commas/quotes)...
+[Sep 02 06:30:07 A -04:00] INFO  Util CsvToOtherDelimiter(0) - Removed  rows for inactive REPs: 
+[Sep 02 06:30:07 A -04:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Sep 02 06:30:07 A -04:00] INFO  EDFDump TransferFileToDatabaseServer(0) - shapedPositions.csv transferred to the DB server
+[Sep 02 06:30:07 A -04:00] INFO  EDFDump DownloadShapedPositions(0) - Importing Encompass Shaped Positions...
+[Sep 02 06:30:09 A -04:00] INFO  EDFDump DownloadShapedPositions(0) - Done. Rows affected : 0

@@ -1,0 +1,113 @@
+Computed IQR:  732.1879999999998
+CustomerNumber              0003296402
+LastInvoiceDate             2019-06-12
+Billed 0-30                    35919.4
+31-60                          31935.2
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 6164, dtype: object
+
+
+
+CustomerNumber               161373292
+LastInvoiceDate             2019-06-11
+Billed 0-30                    21673.8
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 17103, dtype: object
+
+
+
+CustomerNumber                 N227395
+LastInvoiceDate             2019-05-21
+Billed 0-30                   -10649.2
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 31118, dtype: object
+
+
+
+CustomerNumber                 N299778
+LastInvoiceDate             2019-06-06
+Billed 0-30                   -9059.81
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 39745, dtype: object
+
+
+
+CustomerNumber                 N334428
+LastInvoiceDate             2019-06-08
+Billed 0-30                    21453.2
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 43818, dtype: object
+
+
+
+CustomerNumber                 N360729
+LastInvoiceDate             2019-06-12
+Billed 0-30                    23903.7
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 47641, dtype: object
+
+
+
+CustomerNumber                 N368575
+LastInvoiceDate             2019-11-07
+Billed 0-30                      20873
+31-60                          12448.6
+61-90                          8149.75
+91-120                         1008.94
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 49036, dtype: object
+
+
+
+CustomerNumber                 N412954
+LastInvoiceDate             2019-05-22
+Billed 0-30                    24156.3
+31-60                                0
+61-90                                0
+91-120                               0
+121+                                 0
+POR                                  1
+RepID                                6
+ProcessThruDate    2019-06-17 03:59:59
+Name: 57753, dtype: object
+
+
+

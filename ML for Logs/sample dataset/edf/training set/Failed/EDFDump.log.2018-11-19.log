@@ -1,0 +1,201 @@
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - Running as User: repcalcs
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg0: 1
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg1: 2018-11-19 03:59:59
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg2: edf
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - arg3: True
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - 
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - ** Starting EDFPrices **
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - ProcessThruDate 2018-11-19 03:59:59
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump LogParameters(0) - Current directory D:\CE\EDFDump
+[Nov 19 05:00:01 A -05:00] INFO  EDFDumpData GetConfiguration(0) - Loaded 1 generic config values from db
+[Nov 19 05:00:01 A -05:00] INFO  DirCleaner run     (0) - Deleting File .\EDFDump.log.2018-11-02.log
+[Nov 19 05:00:01 A -05:00] INFO  DirCleaner run     (0) - Deleted 1 files in .
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Init    (0) - Commit: True
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Init    (0) - commitGlacier: True
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump Main    (0) - EdfPositionRun :False EdfShapedPositionsRun:False EdfPricesRun:True EdfM2MRun:False ShellM2MRun:False TownsquareM2MRun:False EscowareM2MRun:False
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump RunPrices(0) - * Encompass Prices *
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 19 05:00:01 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-18 (Confidential).csv...
+[Nov 19 05:00:02 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download EDFTNA_Curves_2018-11-18 (Confidential).csv, aborting...
+[Nov 19 05:00:02 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'EDFTNA_Curves_2018-11-17 (Confidential).csv'
+[Nov 19 05:00:02 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-17 (Confidential).csv...
+[Nov 19 05:00:03 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download EDFTNA_Curves_2018-11-17 (Confidential).csv, aborting...
+[Nov 19 05:00:03 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'EDFTNA_Curves_2018-11-16 (Confidential).csv'
+[Nov 19 05:00:03 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-16 (Confidential).csv...
+[Nov 19 05:00:05 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 19 05:00:05 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 19 05:00:05 A -05:00] INFO  EDFDump DownloadPrices(0) - Scrubbing file (removing commas/quotes)...
+[Nov 19 05:00:06 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 19 05:00:06 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - prices.csv transferred to the DB server
+[Nov 19 05:00:06 A -05:00] INFO  EDFDump DownloadPrices(0) - Importing Encompass Prices into the database...
+[Nov 19 05:00:07 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 19 05:00:07 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 05:00:07 A -05:00] INFO  EDFDump Finish  (0) - ~~ Finished EDFPrices ~
+[Nov 19 05:00:07 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Main    (0) - 
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Main    (0) - Running as User: repcalcs
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg0: 1
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg1: 2018-11-19 03:59:59
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Main    (0) - arg2: Edf
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - 
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - ** Starting EDFDump **
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - **********************
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - ProcessThruDate 2018-11-19 03:59:59
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump LogParameters(0) - Current directory D:\CE\EdfDump
+[Nov 19 05:30:01 A -05:00] INFO  EDFDumpData GetConfiguration(0) - Loaded 1 generic config values from db
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Init    (0) - Commit: True
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Init    (0) - commitGlacier: True
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump Main    (0) - EdfPositionRun :True EdfShapedPositionsRun:True EdfPricesRun:True EdfM2MRun:True ShellM2MRun:False TownsquareM2MRun:False EscowareM2MRun:False
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - *****************************
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - * Encompass 5 Day Hourly Positions *
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - *****************************
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump RunPositions(0) - Skipping 5 day positions since its nowhere near the end of the month
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump RunShapedPositions(0) - * Encompass Shaped Positions *
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump RunShapedPositions(0) - ******************************
+[Nov 19 05:30:01 A -05:00] INFO  EDFDumpData LoadRepClientInfoRepId(0) - Loaded 7 Active REP Clients
+[Nov 19 05:30:01 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 11_18_2018.csv...
+[Nov 19 05:30:02 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Exposure Detail 12 Months 11_18_2018.csv, aborting...
+[Nov 19 05:30:02 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Exposure Detail 12 Months 11_17_2018.csv'
+[Nov 19 05:30:02 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 11_17_2018.csv...
+[Nov 19 05:30:04 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Exposure Detail 12 Months 11_17_2018.csv, aborting...
+[Nov 19 05:30:04 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Exposure Detail 12 Months 11_16_2018.csv'
+[Nov 19 05:30:04 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 11_16_2018.csv...
+[Nov 19 05:30:05 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - OpenFile returned NULL
+[Nov 19 05:30:05 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - ChilkatLog:
+  OpenFile:
+    DllDate: Aug 15 2013
+    ChilkatVersion: 9.4.1.42
+    UnlockPrefix: VMACJPSSH
+    Username: PRD-APP-A01:repcalcs
+    Architecture: Little Endian; 64-bit
+    Language: .NET 2.0 / x64
+    VerboseLogging: 0
+    SshVersion: SSH-2.0-WS_FTP-SSH_7.7
+    SftpVersion: 3
+    filename: /vantage/Exposure/12 Months/Exposure Detail 12 Months 11_16_2018.csv
+    access: readOnly
+    createDisposition: openExisting
+    v3Flags: 0x1
+    Sent FXP_OPEN
+    StatusResponseFromServer:
+      Request: FXP_OPEN
+      InformationReceivedFromServer:
+        StatusCode: 4
+        StatusMessage: Failed to open local file
+      --InformationReceivedFromServer
+    --StatusResponseFromServer
+    Failed.
+  --OpenFile
+--ChilkatLog
+
+[Nov 19 05:30:05 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Exposure Detail 12 Months 11_16_2018.csv, aborting...
+[Nov 19 05:30:05 A -05:00] ERROR EDFDump SendEmail(0) - File 'Exposure Detail 12 Months 11_16_2018.csv' not uploaded, reloading last best file...
+System.IO.FileNotFoundException: OpenFile returned false
+   at EDFDump.DownloadSecureFtpFile(String filenameSrc, String filenameDest, String hostname, String mailbox, String username, String password, String localDir, Int32 portNumber)
+   at EDFDump.DownloadShapedPositions()
+   at EDFDump.DownloadFileWithRetry(Action downloadFileAction, Action downloadWithRetryAction, Func`1 getFileNameFunc)
+[Nov 19 05:30:05 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Exposure Detail 12 Months 11_15_2018.csv'
+[Nov 19 05:30:05 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Looking for Exposure Detail 12 Months 11_15_2018.csv...
+[Nov 19 05:30:12 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 19 05:30:12 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Nov 19 05:30:12 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Scrubbing file (removing commas/quotes)...
+[Nov 19 05:30:13 A -05:00] INFO  Util CsvToOtherDelimiter(0) - Removed 24,777 rows for inactive REPs: SGE Energy Sourcing LLC, AP Holdings LLC
+[Nov 19 05:30:13 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done
+[Nov 19 05:30:13 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - shapedPositions.csv transferred to the DB server
+[Nov 19 05:30:13 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Importing Encompass Shaped Positions...
+[Nov 19 05:30:14 A -05:00] INFO  EDFDump DownloadShapedPositions(0) - Done. Rows affected : 0
+[Nov 19 05:30:14 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 19 05:30:14 A -05:00] INFO  EDFDump RunPrices(0) - * Encompass Prices *
+[Nov 19 05:30:14 A -05:00] INFO  EDFDump RunPrices(0) - ********************
+[Nov 19 05:30:14 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-18 (Confidential).csv...
+[Nov 19 05:30:15 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download EDFTNA_Curves_2018-11-18 (Confidential).csv, aborting...
+[Nov 19 05:30:15 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'EDFTNA_Curves_2018-11-17 (Confidential).csv'
+[Nov 19 05:30:15 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-17 (Confidential).csv...
+[Nov 19 05:30:16 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download EDFTNA_Curves_2018-11-17 (Confidential).csv, aborting...
+[Nov 19 05:30:16 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'EDFTNA_Curves_2018-11-16 (Confidential).csv'
+[Nov 19 05:30:16 A -05:00] INFO  EDFDump DownloadPrices(0) - Looking for EDFTNA_Curves_2018-11-16 (Confidential).csv...
+[Nov 19 05:30:18 A -05:00] INFO  EDFDump DownloadSecureFtpFile(0) - Success
+[Nov 19 05:30:18 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 19 05:30:18 A -05:00] INFO  EDFDump DownloadPrices(0) - Scrubbing file (removing commas/quotes)...
+[Nov 19 05:30:19 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 19 05:30:19 A -05:00] INFO  EDFDump TransferFileToDatabaseServer(0) - prices.csv transferred to the DB server
+[Nov 19 05:30:19 A -05:00] INFO  EDFDump DownloadPrices(0) - Importing Encompass Prices into the database...
+[Nov 19 05:30:20 A -05:00] INFO  EDFDump DownloadPrices(0) - Done
+[Nov 19 05:30:20 A -05:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Nov 19 05:30:20 A -05:00] INFO  EDFDump RunM2MEdf(0) - * Encompass M2M *
+[Nov 19 05:30:20 A -05:00] INFO  EDFDump RunM2MEdf(0) - *****************
+[Nov 19 05:30:20 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_11_18_2018.zip'
+[Nov 19 05:30:20 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Downloading for Mark_to_Market_Detail_Dump_11_18_2018.zip...
+[Nov 19 05:30:22 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Mark_to_Market_Detail_Dump_11_18_2018.zip, aborting...
+[Nov 19 05:30:22 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_11_17_2018.zip'
+[Nov 19 05:30:22 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Downloading for Mark_to_Market_Detail_Dump_11_17_2018.zip...
+[Nov 19 05:30:23 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Mark_to_Market_Detail_Dump_11_17_2018.zip, aborting...
+[Nov 19 05:30:23 A -05:00] INFO  EDFDump set_FileNameSrc(0) - Using file 'Mark_to_Market_Detail_Dump_11_16_2018.zip'
+[Nov 19 05:30:23 A -05:00] INFO  EDFDump ProcessEdfM2MFile(0) - Downloading for Mark_to_Market_Detail_Dump_11_16_2018.zip...
+[Nov 19 05:30:23 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Connect returned false
+[Nov 19 05:30:23 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - ChilkatLog:
+  Connect_SFtp:
+    DllDate: Aug 15 2013
+    ChilkatVersion: 9.4.1.42
+    UnlockPrefix: VMACJPSSH
+    Username: PRD-APP-A01:repcalcs
+    Architecture: Little Endian; 64-bit
+    Language: .NET 2.0 / x64
+    VerboseLogging: 0
+    SftpVersion: 0
+    hostname: webftp.edftradingna.com
+    port: 22
+    ConnectTimeoutMs_1: 10000
+    calling ConnectSocket2
+    IPV6 enabled connect with NO heartbeat.
+    connectingTo: webftp.edftradingna.com
+    resolveHostname1:
+      Resolving domain name (IPV4) via gethostbyname
+    --resolveHostname1
+    GetHostByNameHB_ipv4: Elapsed time: 0 millisec
+    myIP_1: 10.50.3.20
+    myPort_1: 64190
+    connect successful (1)
+    Established TCP/IP connection with SSH server
+    Turning on TCP_NODELAY.
+    clientIdentifier: SSH-2.0-PuTTY_Local:_May_11_2009_17:22:38
+    Sending client identifier...
+    Done sending client identifier.
+    Reading server version...
+    WindowsError: An existing connection was forcibly closed by the remote host.
+    WindowsErrorCode: 0x2746
+    numBytesRequested: 1
+    Failed to receive data on the TCP socket
+    Failed to read initial server version string
+    bytesReceived: 
+    Failed.
+  --Connect_SFtp
+--ChilkatLog
+
+[Nov 19 05:30:23 A -05:00] ERROR EDFDump DownloadSecureFtpFile(0) - Unable to download Mark_to_Market_Detail_Dump_11_16_2018.zip, aborting...
+[Nov 19 05:30:23 A -05:00] ERROR EDFDump Main    (0) - Aborting Supplier data Download Process
+System.Exception: Connect returned false
+   at EDFDump.DownloadSecureFtpFile(String filenameSrc, String filenameDest, String hostname, String mailbox, String username, String password, String localDir, Int32 portNumber)
+   at EDFDump.DownloadMarkToMarketFile(String fileNameSrc, String fileNameDest, String fileHost, String fileMailbox, String fileUsername, String filePassword, String fileDownloadDir, Boolean skipDownload, String skipFileMessage, String supplierName, Int32 portNumber)
+   at EDFDump.ProcessEdfM2MFile()
+   at EDFDump.DownloadFileWithRetry(Action downloadFileAction, Action downloadWithRetryAction, Func`1 getFileNameFunc)
+   at EDFDump.DownloadM2MWithRetry()
+   at EDFDump.RetryDownload(Action downloadWithRetryAction, Func`1 getFileNameFunc, FileNotFoundException ex)
+   at EDFDump.DownloadFileWithRetry(Action downloadFileAction, Action downloadWithRetryAction, Func`1 getFileNameFunc)
+   at EDFDump.DownloadM2MWithRetry()
+   at EDFDump.RetryDownload(Action downloadWithRetryAction, Func`1 getFileNameFunc, FileNotFoundException ex)
+   at EDFDump.DownloadFileWithRetry(Action downloadFileAction, Action downloadWithRetryAction, Func`1 getFileNameFunc)
+   at EDFDump.DownloadM2MWithRetry()
+   at EDFDump.RunM2MEdf(String supplierNameArgument)
+   at EDFDump.Main(String[] args)
+[Nov 19 05:30:23 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
+[Nov 19 05:30:23 A -05:00] INFO  EDFDump Finish  (0) - ~~ Finished EDFDump ~
+[Nov 19 05:30:23 A -05:00] INFO  EDFDump Finish  (0) - ~~~~~~~~~~~~~~~~~~~~~~
