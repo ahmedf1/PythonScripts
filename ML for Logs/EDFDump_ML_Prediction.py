@@ -13,6 +13,7 @@ import statistics
 from joblib import *
 import datetime
 
+# load the PRD EDFDump file and turn it into a dataframe using numpy library
 
 def load_PRDfile_toPredict():
     file_toPredict=[]
@@ -34,14 +35,12 @@ classifier = load(r'C:\Users\fahmed\Desktop\ML for Logs\EDFDumpClassifier.joblib
 tfidf_vect = load(r'C:\Users\fahmed\Desktop\ML for Logs\EDFDumpVocabVectorizer.joblib')
 acc = load(r'C:\Users\fahmed\Desktop\ML for Logs\EDFDumpModelAccuracy.joblib')
 
-# word level tf-idf
-#tfidf_vect = TfidfVectorizer(analyzer='word', token_pattern=r'\w{1,}', max_features=5000)
-#tfidf_vect.fit(trainDF['text'])
+
 
 dfPRD = load_PRDfile_toPredict()
 dfQA = load_QAfile_toPredict()
 
-#df3 =  count_vect.transform(df2)
+
 dfPRD = tfidf_vect.transform(dfPRD)
 dfQA = tfidf_vect.transform(dfQA)
 

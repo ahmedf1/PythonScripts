@@ -39,29 +39,39 @@ def tail(file, n=1, bs=1024):
 def openBTBfile(ptd, filepath):
     # get 100 lines from the end of the file
     n=100
+
+    # for Gas Invertory --> spans ~30 days --> which is 450 lines
     if filepath == r"\\prd-app-a01\d$\BuildTheBank\Logs\CalculateNaturalGasInventory.log": n = 450
     lines = tail(filepath,n)
     linestoReturn = []
     formattedPTD =  ptd.strftime('%#m/%d/%Y')
     
     for lineNumber in range(0, len(lines)):
+        # first line is the one that contains the date we are looking for
         if formattedPTD in lines[lineNumber]:
             startLine = lineNumber
             break
 
+    # if formattedPTD was not found, we create the formated PTD from the most recent PTD aka yesterday
     if 'startLine' not in locals():
         yesterdayPTD = (ptd - timedelta(1)).strftime('%#m/%d/%Y')
         for lineNumber in range(0, len(lines)):
             if yesterdayPTD in lines[lineNumber]:
                 startLine = lineNumber
                 break
-            
-    for index in range(startLine, len(lines)):
-        linestoReturn.append(lines[index])
+    try:
+        startLine
+    except UnboundLocalError:
+        print("DATA ERROR")
+        linestoReturn.append("MALFORMED DATA -- CHECK FILE")
+    else:
+        for index in range(startLine, len(lines)):
+            linestoReturn.append(lines[index])
 
     return linestoReturn
     
 
+# takes the lines retreived from the log file and inserts into the GUI object, highlighting success indicators
 
 def printLinesToListBox(lines, ListBoxOBJ):
     ListBoxOBJ.delete(0,END)
@@ -72,9 +82,12 @@ def printLinesToListBox(lines, ListBoxOBJ):
             ListBoxOBJ.itemconfig(index, bg = 'light green')
         index +=1
 
+# simply jumps the date from a past one to the most recent PTD
+
 def switchDateToToday(calendarOBJ):
     calendarOBJ.set_date(datetime.today())
     
+# displays the process name who's file we are currently viewing
 
 def displayBTBlog(ptd, processToDisplay, ListBoxOBJ):
     process = processToDisplay.get()
@@ -82,7 +95,8 @@ def displayBTBlog(ptd, processToDisplay, ListBoxOBJ):
     lines = openBTBfile(ptd,process)
     printLinesToListBox(lines, ListBoxOBJ)
 
-    
+# puts together all the GUI elements
+
 def buildBTBgui():
     root = Tk()
     root.resizable(width=False, height=False)

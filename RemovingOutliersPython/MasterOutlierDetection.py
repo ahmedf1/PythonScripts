@@ -72,7 +72,7 @@ def main():
         dateTimeNow = str(datetime.datetime.today().date()) + " 03:59:59"
         fileToWrite.write("ProcessThruDate: " + dateTimeNow)
 
-
+        '''
         try:
             fileToWrite.write("\n\nRunning for APG Billed\n")
             latestFileAPG_Billed = APG_OutlierReport.APG_outlierDetection()
@@ -118,7 +118,8 @@ def main():
         ## insert and match the file to the date
         isVoltBilled = True if Volt_billedPTD_fileName in latestFileVolt_Billed else False
         isVoltUnbilled = True if Volt_unbilledPTD_fileName in latestFileVolt_Unbilled else False
-
+        '''
+        
         try:
             fileToWrite.write("\n\nRunning for Discount Power Billed\n")
             latestFileDP_Billed = DP_OutlierReport.DP_outlierDetection()
@@ -151,7 +152,7 @@ def main():
         print(isDPUnbilled)
         print(DP_unbilledPTD_fileName)
         print(latestFileDP_Unbilled)
-        
+        '''
         try:
             fileToWrite.write("\n\nRunning for GB Power Billed\n")
             latestFileGBP_Billed = GB_OutlierReport.GBP_outlierDetection()
@@ -172,20 +173,21 @@ def main():
         ## insert and match the file to the date
         isGBPBilled = True if GBP_billedPTD_fileName in latestFileGBP_Billed else False
         isGBPUnbilled = True if GBP_unbilledPTD_fileName in latestFileGBP_Unbilled else False
-
+        '''
+        
         emailBodyReport = ""
-        if not isAPGBilled: emailBodyReport += "Missing APG BILLED FILE\n"
-        if not isAPGUnbilled: emailBodyReport += "Missing APG UNBILLED FILE\n"
-        if not isVoltBilled: emailBodyReport += "Missing VOLT BILLED FILE\n"
-        if not isVoltUnbilled: emailBodyReport += "Missing VOLT UNBILLED FILE\n"
+        #if not isAPGBilled: emailBodyReport += "Missing APG BILLED FILE\n"
+        #if not isAPGUnbilled: emailBodyReport += "Missing APG UNBILLED FILE\n"
+        #if not isVoltBilled: emailBodyReport += "Missing VOLT BILLED FILE\n"
+        #if not isVoltUnbilled: emailBodyReport += "Missing VOLT UNBILLED FILE\n"
         if not isDPBilled: emailBodyReport += "Missing DISCOUNT POWER BILLED FILE\n"
         if not isDPUnbilled: emailBodyReport += "Missing DISCOUNT POWER UNBILLED FILE\n"
-        if not isGBPBilled: emailBodyReport += "Missing GB POWER BILLED FILE\n"
-        if not isGBPUnbilled: emailBodyReport += "Missing GB POWER UNBILLED FILE\n"
+        #if not isGBPBilled: emailBodyReport += "Missing GB POWER BILLED FILE\n"
+        #if not isGBPUnbilled: emailBodyReport += "Missing GB POWER UNBILLED FILE\n"
 
         emailBodyReport += "\n\n" + getActiveClientsFromDB()
         
-        sendEmail_V1(emailBodyReport)       # Email to Jasdev
+        #sendEmail_V1(emailBodyReport)       # Email to Jasdev
         sendEmail_V2(emailBodyReport)       # Email to self
 
 #Python code to illustrate Sending mail with attachments 

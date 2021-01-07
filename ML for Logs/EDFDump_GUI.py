@@ -22,7 +22,7 @@ import statistics
 # 1. Open the ML output file
 
 def openML_outputFile():
-    with open(r"C:\Users\fahmed\Desktop\output.txt", 'r') as file:
+    with open(r"C:\Users\Farhad Vantage\Desktop\Python Scripts\ML for Logs\output.txt", 'w+') as file:
         data = file.readlines()
     file.close()
     return data
@@ -68,8 +68,8 @@ def getStatusFromLines(linesFromFile):
         else:
             qaStatus[date] = status
     
-    acc = statistics.mean(accuracies)
-    return prdStatus, qaStatus, acc
+    #acc = statistics.mean(accuracies)
+    return prdStatus, qaStatus#, acc
 
 # 4. Some functions to open the requested files on command
 
@@ -163,20 +163,13 @@ def openPRD_EdfDump(topFrame, key, value):
             #logContents = openLogFile(r"C:\Users\fahmed\Desktop\ML for Logs\sample dataset\edf\training set\Failed\EDFDump.log.2018-11-19.log")
         
         
-        #top = Toplevel()
         top.title(key + " PRD EDFDump Errors")
 
-        #ButtonsSection = Frame(top)
-        #LogSection = Frame(top)
-
-        #ButtonsSection.pack(side = TOP)
-        #LogSection.pack(side = BOTTOM, fill='x', expand = False)
-        
-        #errorsFrame = top.frame()
-        #errorsFrame.pack(side = TOP)
         ErrorsTitle = Label(top, text =key + "\t PRD EDFDump Errors", relief = RIDGE, font=("Courier",22),width=50, height = 2, padx = 50)
         ErrorsTitle.pack(in_= ButtonsSection, side=TOP)
 
+
+    # assemble the GUI
     ListBox1 = Listbox(top, width = 200, height = 40)
         
     Prices1 = Button(top, text = "Encompass Prices", relief = RIDGE, font=("Courier",16), width = 15, height = 2, wraplength = 120, pady =20, command = partial(switchDisplayedLogSection, 'Prices1', logContents, ListBox1))
@@ -297,15 +290,15 @@ def switchDisplayedLogSection(sectionToDisplay, logContents, ListBoxObject):
 
 # 8. Build GUI
 
-def buildGui(prdStatus, qaStatus, acc):
+def buildGui(prdStatus, qaStatus):
     root = Tk()
     root.resizable(width=False, height=False)
     topFrame = Frame(root)
     bottomFrame = Frame(root)
     bottomFrame.pack(side = BOTTOM)
     processName = Label(topFrame, text ='EDFDump', relief = RIDGE, font=("Courier",22), width=30)
-    Accuracy = Label(topFrame, text =str(acc) , relief = RIDGE, font=("Courier",22), width=30, bg = ('light green' if acc > 0.7 else 'pink'),)
-    Accuracy.pack(fill="x", expand=True, in_= topFrame)
+    #Accuracy = Label(topFrame, text =str(acc) , relief = RIDGE, font=("Courier",22), width=30, bg = ('light green' if acc > 0.7 else 'pink'),)
+    #Accuracy.pack(fill="x", expand=True, in_= topFrame)
     processName.pack(fill="x", expand=True, in_= topFrame)
     topFrame.pack()
     # 3 rows (Date, serverName, status)
@@ -349,8 +342,8 @@ def main():
     EntirefileContents = openML_outputFile()
     linesFromPreviousDay = getRecentLinesFromFile(EntirefileContents, isMonday)
     print(linesFromPreviousDay)
-    prdStatus, qaStatus, acc = getStatusFromLines(linesFromPreviousDay)
-    buildGui(prdStatus,qaStatus, acc)
+    prdStatus, qaStatus = getStatusFromLines(linesFromPreviousDay)
+    buildGui(prdStatus,qaStatus)
     # added the input() so that when this script is run by the task scheduler
     # the window will stay open instead of closing on completion
 
